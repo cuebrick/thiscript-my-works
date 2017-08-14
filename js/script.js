@@ -1,4 +1,5 @@
 $(function () {
+	works.load('json/works.json');
 	works.init('.item');
 	works.addListener('.item');
 	works.startInItem();
@@ -7,6 +8,7 @@ $(function () {
 var works = {
 	_props_ : {
 		padding: 50,
+		gap: 10,
 		itemWidth: 200,
 		itemHeight: 60
 	},
@@ -15,6 +17,11 @@ var works = {
 	// z-index 제어용으로만 사용.
 	itemStackOrder : [],
 
+	load: function (url) {
+		$.getJSON(url, function (data) {
+			console.log(data);
+		});
+	},
 	init: function (selector) {
 		// this is used later in the resizing and gesture demos
 		window.dragMoveListener = works.dragMoveListener;
@@ -78,11 +85,13 @@ var works = {
 		});
 
 		function onWindowResize(e) {
-			var padding = 50;
-			var gap = 10;
+			var padding = works._props_.padding;
+			var gap = works._props_.gap;
+			var w = works._props_.itemWidth;
+			var h = works._props_.itemHeight;
 			// 몇개가 들어갈 수 있나 계산
-			var n = Math.floor((window.innerWidth - (padding * 2)) / (200 + gap));
-			var offsetX = Math.floor((window.innerWidth - (padding * 2) - (200 + gap) * n) / 2);
+			var n = Math.floor((window.innerWidth - (padding * 2)) / (w + gap));
+			var offsetX = Math.floor((window.innerWidth - (padding * 2) - (w + gap) * n) / 2);
 			console.log(window.innerWidth, n, gap, offsetX);
 
 			var count = 0,
@@ -95,10 +104,10 @@ var works = {
 				var item = works.items[key];
 				col = count % n;
 				row = Math.floor(count / n);
-				x = ((200 + gap) * col) + padding + offsetX;
-				y = (60 + gap) * row + padding;
-				delay = 200 * count;
-				works.animateItem(item, x, y, 800, 200 * count);
+				x = ((w + gap) * col) + padding + offsetX;
+				y = (h + gap) * row + padding;
+				delay = w * count;
+				works.animateItem(item, x, y, 800, w * count);
 				++count;
 			}
 		}
@@ -123,7 +132,7 @@ var works = {
 	},
 
 	startInItem: function () {
-		var x = Math.round(window.innerWidth / 2) - 100;
+		var x = Math.round(window.innerWidth / 2) - (works._props_.itemWidth / 2);
 		var y = window.innerHeight - 100;
 		for(var key in works.items) {
 			var item = works.items[key];

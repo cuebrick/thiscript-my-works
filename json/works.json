@@ -1,0 +1,155 @@
+[
+  {
+    "title" : "한국수력원자력 신울진 원자력발전소 1,2호기 PVR 뷰어",
+    "id"    : "pvrViewer",
+    "client": "한국수력원자력(주)",
+    "tags"  : ["Web", "Flash", "UI/UX"],
+    "jobs"  : [
+      {
+        "role": "Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "PVR viewer (sample)",
+        "url"   : "http://ufx.kr/project/pvr_viewer/"
+      },
+      {
+        "title" : "xml data file",
+        "url"   : "http://ufx.kr/project/pvr_viewer/point_data.xml"
+      }
+    ],
+    "path"  : "images/pvr_viewer/",
+    "thumb" : "pvr_viewer_thumb.png",
+    "images" : [
+      {
+        "title"   : "플래시 개발 부분 전체화면",
+        "url"     : "pvr_viewer01.jpg",
+        "thumb"   : "pvr_viewer01_thumb.jpg"
+      },
+      {
+        "title"   : "각 지점을 클릭하면 관련 목록 패널이 표시 : 목록 화면이 화면 밖으로 빠져나가지 않도록 고려됨",
+        "url"     : "pvr_viewer02.jpg",
+        "thumb"   : "pvr_viewer02_thumb.jpg"
+      },
+      {
+        "title"   : "각 항목마다 설명을 표시하는 tooltip",
+        "url"     : "pvr_viewer03.jpg",
+        "thumb"   : "pvr_viewer03_thumb.jpg"
+      },
+      {
+        "title"   : "웹 프로그래머가 요청한 관리자단에서 좌표 찍는 기능",
+        "url"     : "pvr_viewer04.jpg",
+        "thumb"   : "pvr_viewer04_thumb.jpg"
+      }
+    ],
+    "begin"   : "2009.10",
+    "finish"  : "2009.10",
+    "description": "한국수력원자력의 신울진 원자력 발전소의 건설 현황을 모니터링 하기 위해 각 위치에 설치된 PVR(Personal Video Recorder) 목록을 조회하고, 센터에서 각 카메라를 조작, 녹화 할 수 있도록 하는 인터페이스를 플래시로 제작하였다.&#10;PVR viewer의 목록을 데이터베이스에서 xml로 받아, 세부 정보를 플래시 화면으로 표시하였다. 실제 데이터에 해당하는 세부 정보는 보안 사항이므로 예시된 주소는 개발 과정에서 임의로 넣은 dummy 데이터 이다."
+  },
+
+  {
+    "title" : "인하공업전문대학교 CATIA 실습 II 교육 컨텐츠 개발",
+    "id"    : "catia",
+    "client": "인하공업전문대학교",
+    "tags"  : ["web", "Flash", "Education"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "CATIA 실습 II (sample)",
+        "url"   : "http://ufx.kr/project/catia/"
+      }
+    ],
+    "path"  : "images/catia/",
+    "thumb" : "catia_thumb.png",
+    "images" : [
+      {
+        "title"   : "UI 구성",
+        "url"     : "catia01.jpg",
+        "thumb"   : "catia01_thumb.jpg"
+      },
+      {
+        "title"   : "인덱스는 학습공간의 최대한 확보를 위해 화면 밖으로 감추는 것이 기본값",
+        "url"     : "catia02.jpg",
+        "thumb"   : "catia02_thumb.jpg"
+      },
+      {
+        "title"   : "CATIA 프로그램을 구동하여 실제 3D 물체를 생성하는 장면과 교수 나레이션을 동시에 설명",
+        "url"     : "catia03.jpg",
+        "thumb"   : "catia03_thumb.jpg"
+      },
+      {
+        "title"   : "단원별로 칠판강의가 선행되어 학습의 이해도를 높임",
+        "url"     : "catia04.jpg",
+        "thumb"   : "catia04_thumb.jpg"
+      },
+      {
+        "title"   : "문제풀이를 통한 학습점검",
+        "url"     : "catia05.jpg",
+        "thumb"   : "catia05_thumb.jpg"
+      },
+      {
+        "title"   : "2009년 전문대학 교육역량강화 사업비 지원",
+        "url"     : "catia06.jpg",
+        "thumb"   : "catia06_thumb.jpg"
+      }
+
+    ],
+    "begin"   : "2009.08",
+    "finish"  : "2009.12",
+    "description": "인하공업전문대학교의 2009년 교육역량강화사업 응용 및 이론 디지털 컨텐츠 개발 프로젝트 중 3D 제품설계 프로그램인 CATIA 학습을 다룬 자동차학과의 교육 컨텐츠이다.&#10;캠타시아(Camtasia: 컴퓨터 화면 녹화 프로그램)를 이용한 동영상과 플래시 애니메이션 학습 컨텐츠를 번갈아 상영하고, 이 상이한 포맷의 두가지 컨텐츠를 플레이어 변경 없이 상영할 수 있다. 누구나 쉽게 자막을 넣을 수 있도록 자막을 xml 파일로 빼내어 수정할 수 있도록 하였고, 뿐만 아니라 목차의 제목, 비디오, 플래시 애니메이션, 이미지 모두를 외부 파일에서 xml 파일을 통하여 로드하는 구조를 가지고 있어 유지보수에 유리한 구조를 가지고 있다."
+  },
+
+  {
+    "title" : "",
+    "id"    : "",
+    "client": "",
+    "tags"  : ["web"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "",
+        "url"   : ""
+      },
+      {
+        "title" : "",
+        "url"   : ""
+      }
+    ],
+    "path"  : "",
+    "thumb" : "images/",
+    "images" : [
+      {
+        "title"   : "",
+        "url"     : "",
+        "thumb"   : ""
+      }
+    ],
+    "begin"   : "2000.00",
+    "finish"  : "2000.00",
+    "description": ""
+  }
+]
