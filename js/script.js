@@ -11,7 +11,6 @@ var works = {
 		gap: 10,
 		itemWidth: 200,
 		itemHeight: 60,
-
 		openedItemId: null
 	},
 	items : {},
@@ -64,16 +63,16 @@ var works = {
 	},
 
 	addListener: function (selector) {
-		$(window).resize(function (e) {
+		$(window).resize(function () {
 			if(works._props_.resizeTimer){
 				clearInterval(works._props_.resizeTimer);
 			}
 			works._props_.resizeTimer = setTimeout(onWindowResize, 1000);
 		}).keyup(function (e) {
-			works.keyboardCommand(e.keyCode)
+			works.keyboardCommand(e.keyCode);
 		});
 
-		function onWindowResize(e) {
+		function onWindowResize() {
 			var padding = works._props_.padding;
 			var gap = works._props_.gap;
 			var w = works._props_.itemWidth;
@@ -110,9 +109,8 @@ var works = {
 
 	/**
 	 * Reorder item z-index.
-	 * @param e
 	 */
-	itemMouseEnterHandler: function (e) {
+	itemMouseEnterHandler: function () {
 		var index = works.itemStackOrder.indexOf(this);
 		var topItem = works.itemStackOrder.splice(index, 1)[0];
 		if(!topItem)
@@ -162,6 +160,10 @@ var works = {
 		works.openDescription(id);
 	},
 
+	/**
+	 * Open to description div
+	 * @param id
+	 */
 	openDescription: function (id) {
 		var offset = $('#'+id).offset();
 		works._props_.openedItemId = id;
@@ -180,10 +182,17 @@ var works = {
 			});
 	},
 
+	/**
+	 * Bind data to description div
+	 * @param data
+	 */
 	setDescription: function (data) {
 		console.log(data);
 	},
 
+	/**
+	 * Close description div
+	 */
 	closeDescription: function () {
 		var offset = $('#'+works._props_.openedItemId).offset();
 		$('.descriptions').fadeOut(100);
@@ -198,6 +207,10 @@ var works = {
 			});
 	},
 
+	/**
+	 * Window keyboard handler
+	 * @param keyCode
+	 */
 	keyboardCommand: function (keyCode) {
 		console.log(keyCode);
 		switch (keyCode){
@@ -205,16 +218,23 @@ var works = {
 				works.closeDescription();
 				break;
 			default:
-				console.log('Do not action');
+				console.log('Do not keyboard action');
 		}
 	},
 
+	/**
+	 * Move item one frame
+	 * @param item
+	 */
 	moveItem: function (item) {
 		// translate the element
 		// item.element.style.webkitTransform = item.element.style.transform = 'translate(' + item.x + 'px, ' + item.y + 'px)';
 		$(item.element).css({left: item.x + 'px', top: item.y + 'px'});
 	},
 
+	/**
+	 * Item first start
+	 */
 	startInItem: function () {
 		var x = Math.round(window.innerWidth / 2) - (works._props_.itemWidth / 2);
 		var y = window.innerHeight - 100;
@@ -226,6 +246,14 @@ var works = {
 		}
 	},
 
+	/**
+	 * Item animate to position
+	 * @param item
+	 * @param x
+	 * @param y
+	 * @param duration
+	 * @param delay
+	 */
 	animateItem: function (item, x, y, duration, delay) {
 		// console.log($(item.element), x, y);
 		$(item.element).delay(delay).animate({
