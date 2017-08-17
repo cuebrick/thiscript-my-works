@@ -7,10 +7,12 @@ $(function () {
 });
 var works = {
 	_props_ : {
-		padding: 50,
+		padding: 80,
 		gap: 10,
 		itemWidth: 200,
-		itemHeight: 60
+		itemHeight: 60,
+
+		openedItemId: null
 	},
 	items : {},
 
@@ -24,7 +26,7 @@ var works = {
 	},
 	init: function (selector) {
 		// this is used later in the resizing and gesture demos
-		window.dragMoveListener = works.dragMoveListener;
+		window.dragMoveListener = works.itemDragMoveListener;
 		// target elements with the "draggable" class
 		interact('.item')
 			.draggable({
@@ -38,20 +40,16 @@ var works = {
 				},
 				// enable autoScroll
 				autoScroll: true,
-
-				// call this function on every dragmove event
-				onmove: works.dragMoveListener,
-				// call this function on every dragend event
-				onend: function (event) {
-
-				}
-			});
+				onstart: works.itemDragStartHandler,
+				onmove: works.itemDragMoveListener,
+				onend: works.itemDragEndHandler
+			}).styleCursor(false);
 
 		$(selector).each(function (idx) {
 			var item = works.getItemObject(this);
 			var id = "item" + idx;
 			works.items[id] = item;
-			$(this).attr('data-id', id);
+			$(this).attr('id', id);
 
 			works.itemStackOrder.push(this);
 		});
@@ -65,23 +63,14 @@ var works = {
 		}
 	},
 
-	dragMoveListener : function (event) {
-		var target = event.target;
-
-		var id = $(target).attr('data-id');
-		var item = works.items[id];
-
-		item.x = (item.x || 0) + event.dx;
-		item.y = (item.y || 0) + event.dy;
-		works.moveItem(item);
-	},
-
 	addListener: function (selector) {
 		$(window).resize(function (e) {
 			if(works._props_.resizeTimer){
 				clearInterval(works._props_.resizeTimer);
 			}
 			works._props_.resizeTimer = setTimeout(onWindowResize, 1000);
+		}).keyup(function (e) {
+			works.keyboardCommand(e.keyCode)
 		});
 
 		function onWindowResize(e) {
@@ -90,8 +79,8 @@ var works = {
 			var w = works._props_.itemWidth;
 			var h = works._props_.itemHeight;
 			// 몇개가 들어갈 수 있나 계산
-			var n = Math.floor((window.innerWidth - (padding * 2)) / (w + gap));
-			var offsetX = Math.floor((window.innerWidth - (padding * 2) - (w + gap) * n) / 2);
+			var n = Math.floor((window.innerWidth - gap) / (w + gap));
+			var offsetX = Math.floor((window.innerWidth - (w + gap) * n) / 2) + Math.floor(gap / 2);
 			console.log(window.innerWidth, n, gap, offsetX);
 
 			var count = 0,
@@ -104,7 +93,7 @@ var works = {
 				var item = works.items[key];
 				col = count % n;
 				row = Math.floor(count / n);
-				x = ((w + gap) * col) + padding + offsetX;
+				x = ((w + gap) * col) + offsetX;
 				y = (h + gap) * row + padding;
 				delay = w * count;
 				works.animateItem(item, x, y, 800, w * count);
@@ -112,17 +101,112 @@ var works = {
 			}
 		}
 
-		$(selector).mouseenter(function () {
-			var index = works.itemStackOrder.indexOf(this);
-			var topItem = works.itemStackOrder.splice(index, 1)[0];
-			if(!topItem)
-				return;
+		$(selector)
+			.mouseenter(works.itemMouseEnterHandler)
+			.click(works.itemClickHandler);
 
-			works.itemStackOrder.push(topItem);
-			$.each(works.itemStackOrder, function (index, item) {
-				$(item).css('z-index', index);
-			});
+		$('.descriptions .close-button').click(works.closeDescription)
+	},
+
+	/**
+	 * Reorder item z-index.
+	 * @param e
+	 */
+	itemMouseEnterHandler: function (e) {
+		var index = works.itemStackOrder.indexOf(this);
+		var topItem = works.itemStackOrder.splice(index, 1)[0];
+		if(!topItem)
+			return;
+
+		works.itemStackOrder.push(topItem);
+		$.each(works.itemStackOrder, function (index, item) {
+			$(item).css('z-index', index);
 		});
+	},
+	/**
+	 * Unbind click event handler
+	 * @param e
+	 */
+	itemDragStartHandler: function (e) {
+		$(e.target).unbind('click', works.itemClickHandler);
+	},
+	/**
+	 * Dragging Item
+	 * @param e
+	 */
+	itemDragMoveListener : function (e) {
+		var target = e.target;
+		var id = $(target).attr('id');
+		var item = works.items[id];
+
+		item.x = (item.x || 0) + e.dx;
+		item.y = (item.y || 0) + e.dy;
+		works.moveItem(item);
+	},
+	/**
+	 * Bind click event handler
+	 * @param e
+	 */
+	itemDragEndHandler : function (e) {
+		setTimeout(function () {
+			$(e.target).bind('click', works.itemClickHandler);
+		}, 0)
+	},
+	/**
+	 * Item click to open description layer
+	 * @param e
+	 */
+	itemClickHandler : function (e) {
+		var id = $(e.currentTarget).attr('id');
+		console.log(id, $('#'+id).offset());
+		works.openDescription(id);
+	},
+
+	openDescription: function (id) {
+		var offset = $('#'+id).offset();
+		works._props_.openedItemId = id;
+		works.setDescription(works.items[id]);
+		$('.zoom-window')
+			.css(offset)
+			.css('display', 'block')
+			.animate({
+				'left': 0,
+				'top': 0,
+				'width': '100%',
+				'height': '100%',
+				'background-color': 'rgba(0, 0, 0, 0.96);'
+			}, 250, 'linear', function () {
+				$('.descriptions').fadeIn(200);
+			});
+	},
+
+	setDescription: function (data) {
+		console.log(data);
+	},
+
+	closeDescription: function () {
+		var offset = $('#'+works._props_.openedItemId).offset();
+		$('.descriptions').fadeOut(100);
+		$('.zoom-window')
+			.animate({
+				'left': offset.left,
+				'top': offset.top,
+				'width': works._props_.itemWidth,
+				'height': works._props_.itemHeight
+			}, 200, 'linear', function () {
+				$(this).hide();
+			});
+	},
+
+	keyboardCommand: function (keyCode) {
+		console.log(keyCode);
+		switch (keyCode){
+			case 27:
+				works.closeDescription();
+				break;
+			default:
+				console.log('Do not action');
+		}
 	},
 
 	moveItem: function (item) {
@@ -136,7 +220,6 @@ var works = {
 		var y = window.innerHeight - 100;
 		for(var key in works.items) {
 			var item = works.items[key];
-			console.log(item);
 			item.x = x;
 			item.y = y;
 			works.moveItem(item);
