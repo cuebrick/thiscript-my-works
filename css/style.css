@@ -45,8 +45,11 @@ h1, h2, h3, p{
 	background-color: #777777;
 	border-radius: 3px;
 	float: left;
+	overflow: hidden;
 }
-
+#stage .item > .thumb > img{
+	width: 100%;
+}
 .item > h3 {
 	float: right;
 	width: 135px;
@@ -70,6 +73,7 @@ h1, h2, h3, p{
 	height: 15px;
 	padding: 0;
 	line-height: 12px;
+	overflow: hidden;
 }
 .item > .tags > span{
 	color: #eee;
@@ -77,6 +81,7 @@ h1, h2, h3, p{
 	border-radius: 2px;
 	padding: 0 5px 2px 5px;
 	font-size: 10px;
+	margin-right: 2px;
 }
 
 .zoom-window{
