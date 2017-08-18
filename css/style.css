@@ -82,6 +82,16 @@ h1, h2, h3, p{
 	padding: 0 5px 2px 5px;
 	font-size: 10px;
 	margin-right: 2px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.item > .tags > span.on{
+	background-color: #1f86b7;
+}
+.item > .tags > span:hover,
+.item > .tags > span:active{
+	color: #eee;
+	background-color: #333c40;
 }
 
 .zoom-window{

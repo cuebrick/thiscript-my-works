@@ -166,7 +166,7 @@
       }
     ],
     "path"  : "images/pvr_viewer/",
-    "thumb" : "pvr_viewer_thumb.png",
+    "thumb" : "icon_pvr_viewer.png",
     "images" : [
       {
         "title"   : "플래시 개발 부분 전체화면",
@@ -219,7 +219,7 @@
       }
     ],
     "path"  : "images/catia/",
-    "thumb" : "catia_thumb.png",
+    "thumb" : "icon_catia.png",
     "images" : [
       {
         "title"   : "UI 구성",

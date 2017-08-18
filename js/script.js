@@ -10,38 +10,50 @@ var works = {
 		openedItemId: null
 	},
 	items : {},
+	selectedItems: {},
+	unselectedItems: {},
 
 	// z-index 제어용으로만 사용.
 	itemStackOrder : [],
 
 	load: function (url) {
 		$.getJSON(url, function (data) {
-			console.log(data);
 			works.createItems(data);
 			works.initInteract('.item');
 			works.addListener('.item');
 			works.startInItem();
 			$(window).trigger('resize');
 		});
-
 	},
 
+	/**
+	 * 임시 바인딩 코드.
+	 * @param data
+	 */
 	createItems: function (data) {
-		var itemData;
+		var itemData, $item, tags, thumb, id, item;
 		for(var i = 0; i < data.length; ++i){
 			itemData = data[i];
-			var tags = $('<div class="tags"></div>');
+			tags = $('<div class="tags"></div>');
 			$.each(itemData.tags, function (index, value) {
 				tags.append($('<span></span>').text(value))
 			});
-			var thumb = (itemData.path && itemData.thumb) ? $('<img>').attr('src', itemData.path + itemData.thumb) : null;
-			$('#stage').append(
-				$('<div class="item"></div>').append(
-					$('<div class="thumb"></div>').append(thumb)
-				).append(
-					$('<h3></h3>').text(itemData.title)
-				).append(tags)
-			)
+			thumb = (itemData.path && itemData.thumb) ? $('<img/>').attr('src', itemData.path + itemData.thumb) : null;
+
+			id = "item" + i;
+			$item = $('<div class="item"></div>')
+				.append($('<div class="thumb"></div>').append(thumb))
+				.append($('<h3></h3>').text(itemData.title))
+				.append(tags)
+				.attr('id', id)
+				.appendTo($('#stage'));
+
+			item = works.getItemObject();
+			item.id = id;
+			item.element = $item.get(0);
+			item.data = itemData;
+			works.items[id] = item;
+			works.itemStackOrder.push(item.element);
 		}
 	},
 
@@ -66,9 +78,11 @@ var works = {
 				onend: works.itemDragEndHandler
 			}).styleCursor(false);
 	},
-	getItemObject: function ($element) {
+	getItemObject: function () {
 		return {
-			element : $element,
+			id: null,
+			element : null,
+			data : null,
 			x: 0,
 			y: 0,
 			delay: null
@@ -86,54 +100,100 @@ var works = {
 		});
 
 		function onWindowResize() {
-			var padding = works._props_.padding;
-			var gap = works._props_.gap;
-			var w = works._props_.itemWidth;
-			var h = works._props_.itemHeight;
-			// 몇개가 들어갈 수 있나 계산
-			var n = Math.floor((window.innerWidth - gap) / (w + gap));
-			var offsetX = Math.floor((window.innerWidth - (w + gap) * n) / 2) + Math.floor(gap / 2);
-			console.log(window.innerWidth, n, gap, offsetX);
-
-			var count = 0,
-				col,
-				row,
-				x,
-				y,
-				delay;
-			for(var key in works.items){
-				var item = works.items[key];
-				col = count % n;
-				row = Math.floor(count / n);
-				x = ((w + gap) * col) + offsetX;
-				y = (h + gap) * row + padding;
-				delay = w * count;
-				works.animateItem(item, x, y, 800, w * count);
-				++count;
+			if(Object.keys(works.selectedItems).length){
+				works.alignSelectedItems(works.selectedItems);
+				works.alignUnselectedItems(works.unselectedItems);
+			}else{
+				works.alignSelectedItems(works.items);
 			}
 		}
 
 		$(selector)
 			.mouseenter(works.itemMouseEnterHandler)
-			.click(works.itemClickHandler)
-			.each(function (idx) {
-				var item = works.getItemObject(this);
-				var id = "item" + idx;
-				works.items[id] = item;
-				$(this).attr('id', id);
+			.click(works.itemClickHandler);
 
-				works.itemStackOrder.push(this);
-			});
+		$(selector + ' .tags > span').click(function (e) {
+			e.stopImmediatePropagation();
+			works.selectByTag($(this).text());
+		});
 
 		$('.descriptions .close-button').click(works.closeDescription)
+	},
+
+	selectByTag: function (tagName) {
+		works.selectedItems = {};
+		works.unselectedItems = {};
+
+		for(var key in works.items){
+			var item = works.items[key];
+			var bool;
+			$.each(item.data.tags, function (idx, tag) {
+				bool = (tag === tagName);
+				if(bool) return false;
+			});
+
+			if(bool){
+				works.selectedItems[item.id] = item;
+			}else{
+				works.unselectedItems[item.id] = item;
+			}
+		}
+
+		$('.item .tags > span').each(function () {
+			$(this).toggleClass('on', $(this).text() === tagName)
+		});
+		works.alignSelectedItems(works.selectedItems);
+		works.alignUnselectedItems(works.unselectedItems);
+	},
+
+	alignSelectedItems: function (selectedItems) {
+		var padding = works._props_.padding;
+		var gap = works._props_.gap;
+		var w = works._props_.itemWidth;
+		var h = works._props_.itemHeight;
+		// 몇개가 들어갈 수 있나 계산
+		var n = Math.floor((window.innerWidth - gap) / (w + gap));
+		var offsetX = Math.floor((window.innerWidth - (w + gap) * n) / 2) + Math.floor(gap / 2);
+
+		var count = 0,
+			col,
+			row,
+			x,
+			y;
+		for(var key in selectedItems){
+			var item = selectedItems[key];
+			col = count % n;
+			row = Math.floor(count / n);
+			x = ((w + gap) * col) + offsetX;
+			y = (h + gap) * row + padding;
+			works.animateItem(item, x, y, 800, 200 * count);
+			++count;
+		}
+	},
+
+	alignUnselectedItems: function (unselectedItems) {
+
+		var count = 0,
+			x,
+			y,
+			w = window.innerWidth,
+			h = window.innerHeight;
+		for(var key in unselectedItems){
+			var item = unselectedItems[key];
+			x = util.getRandomRange(0, w - works._props_.itemWidth);
+			y = util.getRandomRange(h - 140, h - works._props_.itemHeight);
+			works.animateItem(item, x, y, 800, 200 * count);
+			++count;
+		}
 	},
 
 	/**
 	 * Reorder item z-index.
 	 */
-	itemMouseEnterHandler: function () {
+	itemMouseEnterHandler: function (e) {
 		var index = works.itemStackOrder.indexOf(this);
 		var topItem = works.itemStackOrder.splice(index, 1)[0];
+		console.log(index, topItem, works.itemStackOrder);
 		if(!topItem)
 			return;
 
@@ -177,7 +237,6 @@ var works = {
 	 */
 	itemClickHandler : function (e) {
 		var id = $(e.currentTarget).attr('id');
-		console.log(id, $('#'+id).offset());
 		works.openDescription(id);
 	},
 
@@ -309,5 +368,9 @@ var works = {
 
 
 
-
+var util = {
+	getRandomRange: function (min, max) {
+		return Math.floor(Math.random() * (max - min)) + min;
+	}
+};
 
