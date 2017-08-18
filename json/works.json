@@ -1,8 +1,149 @@
 [
   {
+    "title" : "서울특별시건축사회",
+    "id"    : "hmg",
+    "client": {
+      "name": "서울특별시건축사회",
+      "website": "https://www.sira.or.kr"
+    },
+    "tags"  : ["Web", "Publishing", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "HTML Publisher",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "https://www.siragamri.or.kr"
+      }
+    ],
+    "path"  : "images/siragamri/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2016.04",
+    "finish"  : "2016.05",
+    "description": ""
+  },
+
+  {
+    "title" : "한화생명 스마트플래너",
+    "id"    : "hop",
+    "client": {
+      "name": "한화생명",
+      "website": "http://www.hanwhalife.com/"
+    },
+    "tags"  : ["Mobile", "UI/UX", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "Front-end Developer",
+        "sharing": 30
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "한화생명",
+        "url"   : "http://www.hanwhalife.com/"
+      }
+    ],
+    "path"  : "images/hop/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2016.10",
+    "finish"  : "2017.01",
+    "description": ""
+  },
+
+  {
+    "title" : "한화손해보험 모바일 그룹웨어",
+    "id"    : "hmg",
+    "client": {
+      "name": "한화S&C",
+      "website": "http://www.hsnc.co.kr"
+    },
+    "tags"  : ["Mobile", "UI/UX", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "Front-end Developer",
+        "sharing": 20
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "한화손해보험",
+        "url"   : "https://www.hwgeneralins.com"
+      }
+    ],
+    "path"  : "images/hmg/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2016.06",
+    "finish"  : "2016.08",
+    "description": ""
+  },
+
+  {
+    "title" : "한강유역환경청 한강수변구역 내 오,폐수 배출업소 관리시스템",
+    "id"    : "hgMoblie",
+    "client": {
+      "name": "한강유역환경청",
+      "website": "http://www.me.go.kr/hg/"
+    },
+    "tags"  : ["Mobile", "SI"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/hmg/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2010.07",
+    "finish"  : "2010.08",
+    "description": "환경부 산하 한강유역환경청에서 발주한 한강 수변구역의 오염물질 배출업소를 모바일로 관리하기 위한 시스템 구축. 이 프로젝트에서 안드로이드용 모바일 애플리케이션을 위한 UI 를 디자인 하는 것이 주 임무였다. 시스템에는 납품되어 사용되는 Galaxy-S 에만 UI최적화를 하면 된다는 고객사측을 설득하여 다른 단말에서도 문제 없이 작동할 수 있도록 안드로이드 범용 UI 컴포넌트로 디자인 되었다."
+  },
+
+  {
+    "title" : "한국환경공단 튀니지 대기오염측정망",
+    "id"    : "namis",
+    "client": {
+      "name": "한국환경공단",
+      "website": "http://www.keco.or.kr"
+    },
+    "tags"  : ["Web", "SI", "Flash"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/hmg/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2010.04",
+    "finish"  : "2010.10",
+    "description": "한국환경공단이 한국국제협력단(KOICA)과 함께 튀니지 국영 기업인 ANPE와 합작으로 튀니지의 대기오염 측정망인 NAMIS(National Ambient air Monitoring Information System)을 구축한 프로젝트. 한반도 비슷한 면적의 영토 전역에서 모은 대기오염 측정 데이터를 가공하여 통계내어 관리할 수 있도록 되어 있다."
+  },
+
+  {
     "title" : "한국수력원자력 신울진 원자력발전소 1,2호기 PVR 뷰어",
     "id"    : "pvrViewer",
-    "client": "한국수력원자력(주)",
+    "client": {
+      "name": "한국수력원자력(주)",
+      "website": "http://www.khnp.co.kr"
+    },
     "tags"  : ["Web", "Flash", "UI/UX"],
     "jobs"  : [
       {
@@ -56,8 +197,11 @@
   {
     "title" : "인하공업전문대학교 CATIA 실습 II 교육 컨텐츠 개발",
     "id"    : "catia",
-    "client": "인하공업전문대학교",
-    "tags"  : ["web", "Flash", "Education"],
+    "client": {
+      "name": "인하공업전문대학교",
+      "website": "http://www.inhatc.ac.kr"
+    },
+    "tags"  : ["Web", "Flash", "Education"],
     "jobs"  : [
       {
         "role": "UI Designer",
@@ -115,10 +259,13 @@
   },
 
   {
-    "title" : "",
-    "id"    : "",
-    "client": "",
-    "tags"  : ["web"],
+    "title" : "인하공업전문대학교 조명계획 및 디자인 교육 컨텐츠 개발",
+    "id"    : "light_plan_design",
+    "client": {
+      "name": "인하공업전문대학교",
+      "website": "http://www.inhatc.ac.kr"
+    },
+    "tags"  : ["Web", "Flash", "Education"],
     "jobs"  : [
       {
         "role": "UI Designer",
@@ -131,25 +278,1421 @@
     ],
     "urls"  : [
       {
-        "title" : "",
-        "url"   : ""
+        "title" : "조명계획 및 디자인 (sample)",
+        "url"   : "http://ufx.kr/project/light_plan_design/"
+      }
+    ],
+    "path"  : "images/light_plan_design/",
+    "thumb" : "icon_light_plan_design.png",
+    "images" : [
+      {
+        "title"   : "시작화면",
+        "url"     : "light_plan_design01.jpg"
+      },
+      {
+        "title"   : "교수와 캐릭터가 주고받으며 강의내용을 진행",
+        "url"     : "light_plan_design02.jpg"
+      },
+      {
+        "title"   : "인덱스를 포함한 모든 파일을 외부 파일로 구성할 수 있고 제목도 swf의 컴파일 없이 즉시 수정가능",
+        "url"     : "light_plan_design03.jpg"
+      },
+      {
+        "title"   : "여러가지 조명 스위치를 켜고 끄면서 실제와 유사한 효과를 볼 수 있는 화면",
+        "url"     : "light_plan_design04.jpg"
+      },
+      {
+        "title"   : "마지막 화면",
+        "url"     : "light_plan_design05.jpg"
+      }
+    ],
+    "begin"   : "2009.08",
+    "finish"  : "2009.12",
+    "description": "인하공업전문대학교의 2009년 교육역량강화사업 응용 및 이론 디지털 컨텐츠 개발 프로젝트 중 실내디자인과의 조명계획과 디자인 과목 학습을 다룬 교육 컨텐츠이다.&#10;기본 구조를 CATIA 과목과 같게 유지한 상태에서 디자인을 모두 변경하였고, 이 변경이 손쉬운 수정이 될 수 있도록 모두 Class 화 하였다. 그러므로 같은 프로젝트의 다른 과목을 새로 제작하더라도 디자인만 완료되면 즉시 프로그램을 제작할 수 있다. 뿐만 아니라 목차의 제목, 비디오, 플래시 애니메이션, 이미지 모두를 외부 파일에서 xml 파일을 통하여 로드하는 구조를 가지고 있어 유지보수에 유리한 구조를 가지고 있다."
+  },
+
+  {
+    "title" : "환경부 한국환경공단 푸르누리",
+    "id"    : "waternow",
+    "client": {
+      "name": "한국환경공단",
+      "website": "http://www.keco.or.kr"
+    },
+    "tags"  : ["Web", "Flash", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "HTML Publisher",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "푸르누리",
+        "url"   : "http://www.waternow.go.kr"
+      },
+      {
+        "title" : "정수장정보",
+        "url"   : "TODO"
+      },
+      {
+        "title" : "환경부",
+        "url"   : "http://www.me.go.kr"
+      }
+    ],
+    "path"  : "images/waternow/",
+    "thumb" : "icon_waternow.png",
+    "images" : [
+      {
+        "title"   : "푸르누리 메인 : 우측의 지도기반 정수장 정보 플래시 애플리케이션은 환경부 웹사이트에도 올라가 있다.",
+        "url"     : "waternow1.jpg"
+      },
+      {
+        "title"   : "푸르누리 소개마당의 CI소개 : CI와 관련하여 로고타입과 시그니쳐 디자인도 맏아서 처리하였다.",
+        "url"     : "waternow2.jpg"
+      },
+      {
+        "title"   : "푸르누리 정보마당 메인",
+        "url"     : "waternow3.jpg"
+      },
+      {
+        "title"   : "실시간 정수장별 수질정보 메인 : 팝업 윈도우로 정보를 제공",
+        "url"     : "waternow4.jpg"
+      },
+      {
+        "title"   : "실시간 정수장별 수질정보 메인 : 원수, 취수, 정부, 배수, 수도꼭지별 수질정보와 정수장 상세정보를 볼 수 있다.",
+        "url"     : "waternow5.jpg"
+      },
+      {
+        "title"   : "급수과정별 수질흐름도 : 취수장-정수장-배수지-수도꼭지 의 네 단계 급수과정과 세부 데이터를 한눈에 볼 수 있다.",
+        "url"     : "waternow6.jpg"
+      },
+      {
+        "title"   : "정수장정보 : 전국의 모든 정수시설을 지도기반으로 찾아들어갈 수 있다.",
+        "url"     : "waternow7.jpg"
+      }
+    ],
+    "begin"   : "2009.07",
+    "finish"  : "2009.11",
+    "description": "현재는 한국환경공단으로 명칭이 변경된 환경부 산하 환경관리공단의 수돗물 수질관리정보 포탈의 웹 사이트와 관리 시스템의 구축 작업.&#10;이 프로젝트에서는 디자인 시안부터, 로고 디자인을 포함한 모든 디자인 자원의 산출, css와 html 의 표준화 하드코딩, 그리고 실시간 수질 측정 시스템(물리적인 측정기계)에서 보내온 데이터를 4종류의 플래시 애플리케이션으로 표현하는 작업을 담당하였다. 4종류의 플래시 애플리케이션 외에도 상단 메인 네비게이션 바, 3depth 이상이 표현 가능한 왼쪽 네비게이션, 메인의 popup zone, 우측의 quick menu 도 단순한 붙박이 플래시가 아닌 DB와 연동된 기능을 가지고 있다."
+  },
+
+  {
+    "title" : "한국전력공사 전자업무관리시스템 MyJob 서비스안내",
+    "id"    : "kepco_myjob",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["Web", "Flash", "Education", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "동작 데모",
+        "url"   : "http://ufx.kr/project/kepco_myjob/"
+      }
+    ],
+    "path"  : "images/kepco_myjob/",
+    "thumb" : "icon_myjob.png",
+    "images" : [
+      {
+        "title"   : "도움말 시스템에 대한 소개",
+        "url"     : "myjob1.png"
+      },
+      {
+        "title"   : "캐릭터들이 하나의 상황을 예로 이야기를 풀어나가는 방식을 취하고 있다.",
+        "url"     : "myjob2.png"
+      },
+      {
+        "title"   : "전자업무관리시스템에 대한 전반적인 이야기를 풀어나간 후",
+        "url"     : "myjob3.png"
+      },
+      {
+        "title"   : "시스템을 이용하는 방법을 실제 화면을 이용하여 설명한다.",
+        "url"     : "myjob4.png"
+      },
+      {
+        "title"   : "음성 나레이션이 없는 기획이었기 때문에 지루해지지 않도록 화면상의 강조도 필요",
+        "url"     : "myjob5.png"
+      },
+      {
+        "title"   : "마지막 화면",
+        "url"     : "myjob6.png"
+      }
+    ],
+    "begin"   : "2009.01",
+    "finish"  : "2009.02",
+    "description": "한국전력공사가 내부망인 파워넷에 2009년에 도입한 전자업무관리시스템의 사용 방법을 소개하기 위한 플래시 애니메이션 도움말.&#10;워낙 많은 직원들이 사용하게 되는 시스템이라 새로운 시스템이 런칭해도 사용방법을 알리는것이 쉽지 않은데 애니메이션을 이용해 간단하게 이를 해결하고 있다. 전체 프로젝트 매니징과 디자인, 그리고 액션스크립트 개발을 수행하였다. 캐릭터의 애니메이션 부분은 플래시의 타임라인 모션으로 구현하였고 그 밖의 모든 움직임, 즉 화면설명, 마우스 동작, 텍스트 입력 내용등과 같이 프로그램화 할 수 있는 부분은 재사용과 수정, 추가가 쉽도록 액션스크립트로 제어하고 있다."
+  },
+
+  {
+    "title" : "현대로템 원료이송설비 3D 시뮬레이션",
+    "id"    : "hyundai-rotem_raw_material",
+    "client": {
+      "name": "현대로템",
+      "website": "http://www.hyundai-rotem.co.kr"
+    },
+    "tags"  : ["3D", "Flash", "CD-Rom", "Kiosk"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "관련내용 Google검색",
+        "url"   : "http://www.google.com/search?q=현대제철+친환경+일관제철소"
       },
       {
         "title" : "",
         "url"   : ""
       }
     ],
+    "path"  : "images/hyundai-rotem_raw_material/",
+    "thumb" : "icon_raw_material.png",
+    "images" : [
+      {
+        "title"   : "도입부 : 해상으로부터 카메라가 이동하여 제철소의 상공으로 이동",
+        "url"     : "raw_material1.jpg"
+      },
+      {
+        "title"   : "친환경 저장시설인 원형 또는 돔(dome)형 저장고",
+        "url"     : "raw_material2.jpg"
+      },
+      {
+        "title"   : "원자재의 크기별 선별 과정",
+        "url"     : "raw_material3.jpg"
+      },
+      {
+        "title"   : "선형 저장고 전경",
+        "url"     : "raw_material4.jpg"
+      },
+      {
+        "title"   : "원형 돔(dome) 저장고의 내부구조에 대한 설명",
+        "url"     : "raw_material5.jpg"
+      },
+      {
+        "title"   : "대량 제작된 CD-Rom 타이틀",
+        "url"     : "raw_material6.jpg"
+      }
+    ],
+    "begin"   : "2008.10",
+    "finish"  : "2009.02",
+    "description": "연속주조기 프로젝트의 성공적인 완수와 높은 호응에 힘입어 추가로 수주하게 된 현대로템의 원료이송설비 시뮬레이션이다.&#10;포스코에 이어 국내 두 번째로 건설되는 현대제철의 일관제철소에 납품되는 설비로, 국내 최조이자 세계에서도 몇 안되는 돔(dome)형 저장고이자 친환경 원료이송설비 이다. 연속주조기 프로젝트와 마찬가지로 CD-Rom 까지 대량 print 로 제작하였고, 현대그룹의 최고경영진 대상의 시연회를 열었다.&#10;연속주조기에 사용했던 플래시 프로그램을 그대로 재사용하였다."
+  },
+
+  {
+    "title" : "메리테크 M35Touch 펌웨어 Flash UI",
+    "id"    : "m35t",
+    "client": {
+      "name": "메리테크",
+      "website": "http://www.meritech.co.kr"
+    },
+    "tags"  : ["UI", "Flash", "Mobile"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "UI 배포",
+        "url"   : "http://ufx.kr/blog/44"
+      },
+      {
+        "title" : "UI samples",
+        "url"   : "http://ufx.kr/project/m35t/"
+      },
+      {
+        "title" : "공식 웹사이트",
+        "url"   : "http://www.meripmp.com",
+        "active": false
+      }
+    ],
+    "path"  : "images/m35t/",
+    "thumb" : "icon_m35t.png",
+    "images" : [
+      {
+        "title"   : "Slide UI : 터치스크린을 좌우로 드래그 하거나 아래쪽 슬라이드 핸들을 이용해 기능을 선택",
+        "url"     : "slide.png"
+      },
+      {
+        "title"   : "Button UI : 기본 UI 형태와 같은 UI",
+        "url"     : "button.png"
+      },
+      {
+        "title"   : "실물 PMP - Default UI : 제조사에서 판매할때 탑재되어 있는 기본 UI",
+        "url"     : "m35t_default_ui.jpg"
+      },
+      {
+        "title"   : "실물 PMP - Slide UI : 패치를 통해 배포한 Flash UI. 터치 슬라이드로 기능을 선택한다.",
+        "url"     : "m35t_slide_ui.jpg"
+      },
+      {
+        "title"   : "실물 PMP - Button UI : 패치를 통해 배포한 Flash UI.",
+        "url"     : "m35t_button_ui.jpg"
+      }
+    ],
+    "begin"   : "2008.09",
+    "finish"  : "2008.10",
+    "description": "메리테크사에서 내놓은 M35의 후속 PMP 모델로 lcd 풀 터치 방식을 채용한 M35Touch 의 메인 화면의 플래시 UI 작업이다.&#10;본인은 이 휴대용 디바이스를 실제 가지고 있는데, 개인적으로 제작하여 사용해볼 욕심으로 제작사에 플래시 메인 UI 제작을 위한 API 공개 요청을 했었는데, 제작사의 제안으로 공식적인 플래시 메인 UI를 제작하게 되었다. 휴대용 디바이스는 처음 접해보았던 터라 여러가지 어려움이 있었지만 제작사의 전폭적인 지원으로 펌웨어에 정식으로 릴리즈되어 배포되게 되었다. 특히 fla 파일을 템플릿으로 제공하여 사용자 커뮤니티에서 이를 수정한 UI들이 다수 제작되었다."
+  },
+
+  {
+    "title" : "케이아이에스티 웹 사이트",
+    "id"    : "kist",
+    "client": {
+      "name": "한국수력원자력",
+      "website": "http://www.khnp.co.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹사이트",
+        "url"   : "http://www.kist.busan.kr",
+        "active": false
+      }
+    ],
+    "path"  : "images/kist/",
+    "thumb" : "icon_kist.png",
+    "images" : [
+      {
+        "title"   : "웹사이트 메인",
+        "url"     : "kist1.jpg"
+      },
+      {
+        "title"   : "웹사이트 메인",
+        "url"     : "kist2.jpg"
+      },
+      {
+        "title"   : "제품소개",
+        "url"     : "kist3.jpg"
+      }
+    ],
+    "begin"   : "2008.07",
+    "finish"  : "2008.08",
+    "description": "한국수력원자력에서 지원하는 중소기업정보화 지원사업의 시행자로 참여하여 구축하게된 KIST의 웹 사이트. 고객사측의 웹 사이트에 대한 이해가 전무하여 진행중에 무척 애를 먹었던 프로젝트다. 하나의 xml로 상단 네비게이션 바, 좌측 네비게이션 바, visual 영역의 2depth 제목, body 영역의 현재 페이지 제목, visual 이미지의 선별적 로딩까지 표현하도록 하여 작업 과정에서 일어나는 메뉴명 변경, 유지보수시에 생기는 새로운 메뉴의 추가 등에 새로운 이미지나 플래시 파일을 새로 퍼블리싱 할 필요없이 유연하게 수정할 수 있는 구조를 가지고 있다. 현재 유지보수도 시행하고 있다."
+  },
+
+  {
+    "title" : "현대로템 연속주조기 3D 시뮬레이션",
+    "id"    : "hyundai-rotem_ccm",
+    "client": {
+      "name": "현대로템",
+      "website": "http://www.hyundai-rotem.co.kr"
+    },
+    "tags"  : ["3D", "Flash", "CD-Rom", "Kiosk"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "데모",
+        "url"   : "http://ufx.kr/project/hyundai-rotem_ccm/"
+      }
+    ],
+    "path"  : "images/hyundai-rotem_ccm/",
+    "thumb" : "icon_ccm.png",
+    "images" : [
+      {
+        "title"   : "CD-ROM title 의 첫 화면",
+        "url"     : "ccm1.jpg"
+      },
+      {
+        "title"   : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
+        "url"     : "ccm2.jpg"
+      },
+      {
+        "title"   : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
+        "url"     : "ccm3.jpg"
+      },
+      {
+        "title"   : "대량 제작된 CD-Rom 타이틀",
+        "url"     : "ccm4.jpg"
+      },
+      {
+        "title"   : "설치된 키오스크 와 연동되는 모형 (모형제작 : 기흥성)",
+        "url"     : "ccm5.jpg"
+      },
+      {
+        "title"   : "설치된 키오스크 사진 전경 : 현대제철(당진) 내 현대로템 제철설계사업부 1층 건물 로비",
+        "url"     : "ccm6.jpg"
+      }
+    ],
+    "begin"   : "2008.06",
+    "finish"  : "2008.09",
+    "description": "현대로템은 현대 계열사 중 일반인들에게는 잘 알려져 있지 않은편이지만, 관련업계에서는 아주 유망한 회사로 알려저 있다. 그도 그럴것이 한국형 군용 전차인 K1A1과 경부고속전철인 KTX, 그리고 우리가 매일 타고 다니는 지하철 전동차의 제작사이다.&#10;이 작업은 연속주조기가 제철소의 중간 단계 제품을 만드는 과정을 러닝타임 8분짜리 3D 시뮬레이션으로 시각화 한 작업이다. 관련기술은 상당히 높은 기술수준을 요구하여 국내에서 턴키로 제작할 수 있는 곳은 포스코와 현대로템 단 두곳으로 알려져 있다. 한국어와 영어 2개국어로 성우 더빙 하였는데 특별히 한국어 버전에는 성우 구자형씨가 나레이션을 하였다."
+  },
+
+  {
+    "title" : "다중이용시설 실내공기질 자동측정망 관제시스템",
+    "id"    : "inair",
+    "client": {
+      "name": "한국환경공단",
+      "website": "http://www.keco.or.kr"
+    },
+    "tags"  : ["Web", "Flash", "SI", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://info.inair.or.kr",
+        "active": false
+      }
+    ],
+    "path"  : "images/inair/",
+    "thumb" : "icon_inair.png",
+    "images" : [],
+    "begin"   : "2008.09",
+    "finish"  : "2008.11",
+    "description": "현재 한국환경공단으로 명칭이 바뀐 환경부 산하 환경관리공단에서 관리하는 실시간 실내공기질 측정, 관제 시스템 작업.&#10;제한된 숫자의 관리자만 계정이 발급되므로 일반인은 출입 불가이다. 지하철의 플랫폼과 같이 공공장소에 설치된 공기측정 기기에서 보내온 여러가지 실시간 데이터를 표시하는 플래시 애플리케이션이 메인 화면에 표현했고, 서브 디자인 대표시안 정도까지만 만들어진 psd 파일만으로 별도의 페이지 psd 파일을 만들지 않고 하드코딩 하였다."
+  },
+
+  {
+    "title" : "한국전력공사 유인변전소 조작전 검증시스템",
+    "id"    : "kepco_vaset",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["Web", "SI", "Mobile"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/kepco_vaset/",
+    "thumb" : "icon_kepco_vaset.png",
+    "images" : [
+      {
+        "title"   : "PDA 단말기의 화면",
+        "url"     : "vaset1.png"
+      },
+      {
+        "title"   : "PDA 단말기의 화면 - 작업지시서 목록",
+        "url"     : "vaset1.png"
+      },
+      {
+        "title"   : "PDA 단말기의 화면 - 작업지시서 수행 내용 : 야외 환경에서도 정확히 보일 수 있도록 명확히 대비되는 색상과 폰트를 사용",
+        "url"     : "vaset1.png"
+      },
+      {
+        "title"   : "관제실에서 로그인하여 작업지시서를 입력하고 관리할 수 있다.",
+        "url"     : "vaset_admin1.jpg"
+      },
+      {
+        "title"   : "UI 대부분은(네비게이션 바 2종류, 본문제목은 Flash + xml로 항상 재사용 한다.",
+        "url"     : "vaset_admin2.jpg"
+      }
+    ],
+    "begin"   : "2008.09",
+    "finish"  : "2008.11",
+    "description": "가정집의 정전은 고작해야 냉동실의 아이스크림이 녹는 정도의 피해를 가져오는 것이 고작이지만, 병원이나 발전소, 대규모 화학공장, 제철소 등의 정전은 억단위의 피해와 직결된다고 한다. 한국전력공사의 대규모 전력소에서 전력을 공급하고 차단하는 절차에 조작실수로 인하여 의도하지 않은 정전사태가 일어나지 않도록 상황실과 현장근무자의 PDA단말기를 연결하여 보완한 시스템이다.&#10;"
+  },
+
+  {
+    "title" : "한국전력공사 경기북부지사 고객응대 만족도 조사 시스템",
+    "id"    : "kepco_customer_survey",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["SI"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/kepco_customer_survey/",
+    "thumb" : "icon_customer_survey.png",
+    "images" : [
+      {
+        "title"   : "고객 대면용 첫 화면",
+        "url"     : "customer_survey1.jpg"
+      },
+      {
+        "title"   : "고객 대면용 마지막 화면",
+        "url"     : "customer_survey2.jpg"
+      },
+      {
+        "title"   : "관리자 로그인",
+        "url"     : "customer_survey3.jpg"
+      },
+      {
+        "title"   : "관리자 프로그램 통계관리",
+        "url"     : "customer_survey4.jpg"
+      },
+      {
+        "title"   : "관리자 프로그램 기간별 통계",
+        "url"     : "customer_survey5.jpg"
+      },
+      {
+        "title"   : "상담자 선택화면과 알림이",
+        "url"     : "customer_survey6.jpg"
+      }
+    ],
+    "begin"   : "2008.09",
+    "finish"  : "2008.11",
+    "description": "한국전력공사 경기북부지사의 상담창구에 비치된 고객 대면용 pc에 설치된 상담 프로그램. 상담을 마친 고객이 몇 개의 간단한 터치 조작으로 상담원을 평가하여 차후 대 고객 서비스의 질을 높이는데 그 목적이 있다.&#10;"
+  },
+
+  {
+    "active": false,
+    "title" : "뉴크론 웹 사이트",
+    "id"    : "nucron",
+    "client": {
+      "name": "한국수력원자력",
+      "website": "http://www.khnp.co.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.nucron.co.kr",
+        "active": false
+      }
+    ],
+    "path"  : "images/nucron/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2008.03",
+    "finish"  : "2008.04",
+    "description": "한국수력원자력에서 지원하는 중소기업정보화 지원사업으로 구축하게된 뉴크론의 웹 사이트. 물속이나 원자력 발전소의 극한 환경에서 가동하는 카메라를 제작하는 국내 유일의 회사이다.&#10;작업진행을 전반적으로 진행, 관리(P.M.)하고 플래시 부분의 액션스크립트 작업 지원을 수행하였다."
+  },
+
+  {
+    "active": false,
+    "title" : "대한한의사협회 전자도서관",
+    "id"    : "akom",
+    "client": {
+      "name": "대한한의사협회",
+      "website": "http://www.akom.org"
+    },
+    "tags"  : ["Web"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/akom/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2008.01",
+    "finish"  : "2008.01",
+    "description": ""
+  },
+
+  {
+    "active": false,
+    "title" : "항공선진화사업 웹 사이트",
+    "id"    : null,
+    "client": {
+      "name": "",
+      "website": ""
+    },
+    "tags"  : ["Web"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
     "path"  : "",
-    "thumb" : "images/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2008.01",
+    "finish"  : "2008.01",
+    "description": ""
+  },
+
+  {
+    "title" : "한국전력공사 계전기 시험모의학습 추가개발",
+    "id"    : "kepco_relay_2nd",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["Web", "Flash", "Education", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "GD31-A2B2 계전기",
+        "url"   : "http://ufx.kr/project/relay/simulation2/"
+      },
+      {
+        "title" : "GCPF-2SCD 계전기",
+        "url"   : "http://ufx.kr/project/relay/simulation3/"
+      }
+    ],
+    "path"  : "images/kepco_relay_2nd/",
+    "thumb" : "icon_gd31-a2b2.png",
+    "images" : [
+      {
+        "title"   : "GD31-A2B2 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
+        "url"     : "gd31-a2b2_1.png"
+      },
+      {
+        "title"   : "GD31-A2B2 실제와 거의 동일한 조작 - 계전기를 뒤집어 실제 케이블을 연결하듯이 연결한다.",
+        "url"     : "gd31-a2b2_2.png"
+      },
+      {
+        "title"   : "GD31-A2B2 모든것은 그림 - 화면의 모든 이미지는 Flash 에서 벡터 드로잉으로 그린것.",
+        "url"     : "gd31-a2b2_3.png"
+      },
+      {
+        "title"   : "GD31-A2B2",
+        "url"     : "gd31-a2b2_4.png"
+      },
+      {
+        "title"   : "GD31-A2B2",
+        "url"     : "gd31-a2b2_5.png"
+      },
+      {
+        "title"   : "GD31-A2B2 시뮬레이션 첫 화면 - 정해진 방법에 의해 시험을 보듯 시뮬레이션을 할 수있다.",
+        "url"     : "gd31-a2b2_6.png"
+      },
+      {
+        "title"   : "GCPF-2SCD 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
+        "url"     : "gcpf-2scd_1.png"
+      },
+      {
+        "title"   : "GCPF-2SCD 계전기의 뒷면 - 실제감을 주기위해 공을 들인 일러스트",
+        "url"     : "gcpf-2scd_2.png"
+      },
+      {
+        "title"   : "GCPF-2SCD 기능설명",
+        "url"     : "gcpf-2scd_3.png"
+      },
+      {
+        "title"   : "GCPF-2SCD",
+        "url"     : "gcpf-2scd_4.png"
+      }
+    ],
+    "begin"   : "2007.08",
+    "finish"  : "2007.11",
+    "description": "2006년에 제작한 DOG-D42 계전기 시험모의학습이 좋은 결과를 내자 2종류의 계전기를 추가 개발하게 되었다.&#10;학습과정은 성우의 나레이션과 화면 설명으로 조작법을 학습하는 과정이고 이를 바탕으로 시뮬레이션 과정에서 사용자가 직접 조작하여 결과에 따라 채점되는 방식을 가지고 있다. 또한 채점결과와 접속 통계를 서버로 전송하여 관리자가 차후 결과보고에 사용하고 있다.&#10;이전 프로젝트와 마찬가지로 전체 프로젝트 진행과 디자인, 그리고 액션스크립트 개발을 수행하였고, 웹 개발자가 서버와 DB에 기록하는 부분의 웹 프로그램을 추가하였다.&#10;* 링크를 실제 실행해 보길 바랍니다."
+  },
+
+  {
+    "title" : "한국전력공사 계전기 시험모의학습",
+    "id"    : "kepco_relay_1st",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["Web", "Flash", "Education", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "DOG-D42 계전기",
+        "url"   : "http://ufx.kr/project/relay/simulation1/"
+      }
+    ],
+    "path"  : "images/kepco_relay_1st/",
+    "thumb" : "icon_dog-d42.png",
+    "images" : [
+      {
+        "title"   : "시작 화면",
+        "url"     : "dog-d24_1.jpg"
+      },
+      {
+        "title"   : "화면상의 케이블을 드래그해서 실제와 동일하게 연결하고 연결 결과에 따라 다른 결과를 보여준다.",
+        "url"     : "dog-d24_2.jpg"
+      },
+      {
+        "title"   : "기기를 실제와 동일한 방식으로 스위치나 다이얼을 조작할 수 있다.",
+        "url"     : "dog-d24_3.jpg"
+      },
+      {
+        "title"   : "올바른 조작 방법을 여러 가지 UI 를 이용해 가이드 해주고 잘못된 조작을 가려내서 결과를 알려준다.",
+        "url"     : "dog-d24_4.jpg"
+      },
+      {
+        "title"   : "자료 메뉴에서는 공식 설명서, 고장사례등의 참고 자료를 열람할 수 있다.",
+        "url"     : "dog-d24_5.jpg"
+      }
+    ],
+    "begin"   : "2006.05",
+    "finish"  : "2006.11",
+    "description": "계전기란 가정에서 흔히 두꺼비집이라고 부르는 누전차단기의 대규모 버전 기기인데(물론 가정용 누전차단기보다는 훨씬 복잡한 기기이다) 이 계전기의 조작과 테스트 방법을 학습하는 컨텐츠를 만들어 표준화된 조작법을 익히게끔 하는 것이 이 교육컨텐츠의 목적이다.&#10;왼쪽에 보이는 것이 계전기, 오른쪽이 계전기를 테스트하는 시뮬레이터인데, 말하자면 물리적으로 존재하는 시뮬레이터(Simulator)를 가상으로 시뮬레이션(Simulation)한 셈이다."
+  },
+
+  {
+    "title" : "울진원자력본부 사택 웹 사이트",
+    "id"    : "khnptown",
+    "client": {
+      "name": "한국수력원자력",
+      "website": ""
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.khnptown.com"
+      }
+    ],
+    "path"  : "images/khnp_khnptown/",
+    "thumb" : "icon_khnptown.png",
+    "images" : [
+      {
+        "title"   : "웹사이트 메인",
+        "url"     : "khnptown1.jpg"
+      },
+      {
+        "title"   : "사택약도",
+        "url"     : "khnptown2.jpg"
+      },
+      {
+        "title"   : "사택신청 절차",
+        "url"     : "khnptown3.jpg"
+      },
+      {
+        "title"   : "복지시설",
+        "url"     : "khnptown4.jpg"
+      }
+    ],
+    "begin"   : "2007.08",
+    "finish"  : "2007.09",
+    "description": "울진원자력본부 사원주택의 주거정보 제공과 사택 관리를 위한 웹 사이트. 울진원자력본부의 사택은 한 지역에 모여 있는 것이 아니라 상당히 넓은 지역에 흩어져 있고 여러 체육시설 및 복지시설과 함께 각기 다른 형태와 크기로 제공되고 있기 때문에 이를 효과적으로 관리하기 위한 소통 채널이 필요한데 사택 웹사이트가 그 역할을 하고 있다.&#10;사택 웹 사이트는 한번 개편되면 오랬동안 사용하는 특성을 고려하여 컨텐츠와 디자인을 구성하였고 네비게이션을 위한 단일 xml 파일을 이용하여 유지보수의 편의를 꾀하였다."
+  },
+
+  {
+    "title" : "국방소프트웨어산학연협회 뉴스레터",
+    "id"    : "kodesa",
+    "client": {
+      "name": "국방소프트웨어산학연협회",
+      "website": "http://www.kodesa.org"
+    },
+    "tags"  : ["Web", "NewsLetter", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : null,
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2007.07",
+    "finish"  : "2007.07",
+    "description": "국방소프트웨어산학연협회의 메일링 리스트에 가입된 유저를 대상으로 비정기 뉴스레터를 발송하는데, 그에 필요한 기본 템플릿을 제공."
+  },
+
+  {
+    "title" : "인하대학교 물류종합모의운영시스템",
+    "id"    : "inha_distribution",
+    "client": {
+      "name": "인하대학교",
+      "website": "http://www.inha.ac.kr"
+    },
+    "tags"  : ["SI", "Flash", "Education", "Kiosk"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/inha_distribution/",
+    "thumb" : "icon_inha_distribution.png",
+    "images" : [
+      {
+        "title"   : "POS 키오스크 화면",
+        "url"     : "inha_distribution1.png"
+      },
+      {
+        "title"   : "POS 키오스크 화면",
+        "url"     : "inha_distribution2.png"
+      },
+      {
+        "title"   : "메인 키오스크 화면",
+        "url"     : "inha_distribution3.png"
+      },
+      {
+        "title"   : "메인 키오스크 화면",
+        "url"     : "inha_distribution4.png"
+      },
+      {
+        "title"   : "시스템과 연동되어 동작(시뮬레이션)이 되는 컨베이어 벨트 모형",
+        "url"     : "inha_distribution5.png"
+      }
+    ],
+    "begin"   : "2007.04",
+    "finish"  : "2007.05",
+    "description": "교육인적자원부의 수도권 대학특성화 지원사업에서 물류특성화 대학으로 선정된 인하대학교의 물류 전문화 학습을 진행하기 위해 구축한 모의운영시스템. 강의실 전체를 물류의 시작부터 POS(Point Of Sale)시점까지 모든 흐름을 체험할 수 있는 미니어쳐와(구체적인 물류 설비가 등장하고 실제 작동가능) Kiosk로 구성하여 학생들이 한눈에 물류를 이해할 수 있도록 설계 되었다. 그중, 여러대의 Kiosk 에 탑재된 프로그램을 각각 컨베이어 제어, POS 결제 기능을 플래시로 구현하였다."
+  },
+
+  {
+    "title" : "코스닥협회 대량메일 솔루션",
+    "id"    : "kosdaqca",
+    "client": {
+      "name": "코스닥협회",
+      "website": "http://www.kosdaqca.or.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/kosdaqca/",
+    "thumb" : "icon_kosdaqca.png",
+    "images" : [
+      {
+        "title"   : "인증된 관리자 로그인 필요",
+        "url"     : "kosdaqca0.png"
+      },
+      {
+        "title"   : "인트라넷의 기본적인 기능을 가지고 있다.",
+        "url"     : "kosdaqca1.png"
+      },
+      {
+        "title"   : "이메일 보내기",
+        "url"     : "kosdaqca2.png"
+      },
+      {
+        "title"   : "메일함의 설정",
+        "url"     : "kosdaqca5.png"
+      },
+      {
+        "title"   : "개인정보",
+        "url"     : "kosdaqca6.png"
+      }
+    ],
+    "begin"   : "2006.12",
+    "finish"  : "2007.02",
+    "description": "코스닥협회의 메일링 리스트에 등록되어 있는 유저들에게 정기적으로 메일을 보내는 솔루션을 구축.&#10;템플릿을 이용한 메일 작성, 예약전송, 전송실패등의 각종 로그 기록외에도 다양한 기능을 가지고 있다. 이 프로젝트에서 전체적인 ui 의 구조를 설계, 세부 디자인 구현, 하드코딩 업무를 수행하였다."
+  },
+
+  {
+    "title" : "NEO EKP 웹사이트",
+    "id"    : "neoekp_web",
+    "client": {
+      "name": "네오드림스",
+      "website": "http://www.neodreams.co.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.neoekp.com"
+      }
+    ],
+    "path"  : "images/neoekp_web/",
+    "thumb" : "icon_neoekp_web.png",
+    "images" : [
+      {
+        "title"   : "웹사이트 메인",
+        "url"     : "neoekp_web1.jpg"
+      }
+    ],
+    "begin"   : "2006.10",
+    "finish"  : "2006.11",
+    "description": "2006년부터 2009년초까지 재직했던 (주)네오드림스 에서 제작한 그룹웨어 솔루션을 소개, 판매, 애플리케이션 서비스 임대를 시행하기 위해 제작한 웹 사이트."
+  },
+
+  {
+    "title" : "NEO EKP 그룹웨어",
+    "id"    : "neoekp",
+    "client": {
+      "name": "네오드림스",
+      "website": "http://www.neodreams.co.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.neoekp.com"
+      }
+    ],
+    "path"  : "images/neoekp/",
+    "thumb" : "icon_neoekp.png",
+    "images" : [
+      {
+        "title"   : "그룹웨어 메인",
+        "url"     : "neoekp1.jpg"
+      },
+      {
+        "title"   : "자료실",
+        "url"     : "neoekp2.jpg"
+      },
+      {
+        "title"   : "주소록",
+        "url"     : "neoekp3.jpg"
+      },
+      {
+        "title"   : "조직관리",
+        "url"     : "neoekp4.jpg"
+      },
+      {
+        "title"   : "일정관리",
+        "url"     : "neoekp5.jpg"
+      }
+    ],
+    "begin"   : "2008.09",
+    "finish"  : "2008.11",
+    "description": "2006년부터 2009년초까지 재직했던 (주)네오드림스 에서 제작한 그룹웨어 솔루션. 초기 구축 이후에 입사했기 때문에 두번째 개편부터 전체적인 UI와 필요한 디자인요소의 산출하였다. 재직하던 동안 주기적으로 리뉴얼을 시행하였으니 기간만으로 본다면 이제껏 수행한 프로젝트중 가장 오랜 기간동안 작업한 셈이다."
+  },
+
+  {
+    "title" : "서울특별시 강북구의회 웹사이트",
+    "id"    : "gbc_seoul",
+    "client": {
+      "name": "강북구의회",
+      "website": "http://council.gangbuk.seoul.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://council.gangbuk.seoul.kr"
+      }
+    ],
+    "path"  : "images/gbc_seoul/",
+    "thumb" : "icon_gbc_seoul.png",
+    "images" : [
+      {
+        "title"   : "메인화면",
+        "url"     : "gbc_seoul_1.jpg"
+      }
+    ],
+    "begin"   : "2008.06",
+    "finish"  : "2009.02",
+    "description": "기 구축되어있던 강북구의회 웹사이트의 연간 유지보수 작업이다. 비 정기적인 이미지의 수정과 팝업등의 비교적 간단한 작업을 수행."
+  },
+
+  {
+    "title" : "울진원자력본부 웹사이트 통계그래프",
+    "id"    : "khnp_uj",
+    "client": {
+      "name": "한국수력원자력",
+      "website": "http://www.khnp.co.kr"
+    },
+    "tags"  : ["Web", "Flash"],
+    "jobs"  : [
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "그래프 #0",
+        "url"   : "http://www.khnp.co.kr/uj/area/area01.jsp?code=0301",
+        "active": false
+      }
+    ],
+    "path"  : "images/khnp_uj/",
+    "thumb" : "icon_uj_graph.png",
+    "images" : [
+      {
+        "title"   : "경제적 기여도 종합",
+        "url"     : "uj_graph1.png"
+      },
+      {
+        "title"   : "지역 출신 인건비 현황 그래프",
+        "url"     : "uj_graph2.png"
+      },
+      {
+        "title"   : "막대그래프",
+        "url"     : "uj_graph3.png"
+      }
+    ],
+    "begin"   : "2006.11",
+    "finish"  : "2006.12",
+    "description": "한국수력원자력 울진원자력본부 웹사이트의 지역공동체경영 대메뉴에 필요한 그래프 및 차트를 Flash로 제작.&#10;2006년도 연말에 리뉴얼된 웹사이트는 2010년 현재 이미 다시 리뉴얼되었지만 플래시 차트만은 그대로 남아있어 좋은 재사용성과 유지보수성을 반증하였다.&#10;차트에 표현되는 데이터는 JSP로 출력된 외부 xml 파일을 이용하였고, 이 데이터를 관리자 단에서 입력, 수정, 각종 별도 설정할 수 있도록 하였다."
+  },
+
+  {
+    "title" : "쥴 웹사이트",
+    "id"    : "joul",
+    "client": {
+      "name": "한국수력원자력",
+      "website": "http://www.khnp.co.kr"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.joul.co.kr"
+      }
+    ],
+    "path"  : "images/joul/",
+    "thumb" : "icon_joul.png",
+    "images" : [
+      {
+        "title"   : "웹 사이트 메인",
+        "url"     : "joul1.jpg"
+      },
+      {
+        "title"   : "회사소개",
+        "url"     : "joul2.jpg"
+      },
+      {
+        "title"   : "제품소개",
+        "url"     : "joul3.jpg"
+      }
+    ],
+    "begin"   : "2006.10",
+    "finish"  : "2006.11",
+    "description": "한국수력원자력에서 지원하는 중소기업정보화 지원사업으로 구축시행하게된 쥴(Joul)의 웹사이트.&#10;프로젝트 매니저로 참여하였고 메인과 네비게이션 바 등의 플래시 작업의 일부를 지원하였다."
+  },
+
+  {
+    "title" : "한국전력공사 본사 로비전광판",
+    "id"    : "kepco_lobby",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["SI", "Flash"],
+    "jobs"  : [
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/kepco_lobby/",
+    "thumb" : "icon_kepco_lobby.png",
+    "images" : [],
+    "begin"   : "2007.12",
+    "finish"  : "2007.12",
+    "description": "강남구 삼성동에 위치한 한국전력공사의 본사의 1층 로비 벽에 설치되어있는 대형 LCD 전광판에 표출되는 컨텐츠를 제작.&#10;이 전광판은 시간대별로 시계, 날씨정보, 헤드라인뉴스, 광고배너와 같은 다양한 정보들이 순환 되는데, 커다란 바늘이 돌아가고 있는 아날로그 벽시계라든지, 한전내 포탈사이트에서 가지고 온 날씨 정보를 가공하여 날씨 정보를 표현하는 등의 작업을 플래시로 표현하였다."
+  },
+
+  {
+    "title" : "한국전력공사 중앙교육원 무인안내시스템",
+    "id"    : "kepco_academy",
+    "client": {
+      "name": "한국전력공사",
+      "website": "http://www.kepco.co.kr"
+    },
+    "tags"  : ["SI", "Flash", "Kiosk"],
+    "jobs"  : [
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/kepco_academy/",
+    "thumb" : "icon_kepco_academy.png",
+    "images" : [
+      {
+        "title"   : "Kiosk #1",
+        "url"     : "kepco_academy1.jpg"
+      },
+      {
+        "title"   : "Kiosk #2 (Kiosk 는 총 3대)",
+        "url"     : "kepco_academy2.jpg"
+      },
+      {
+        "title"   : "키오스크 화면",
+        "url"     : "kepco_academy3.jpg"
+      }
+    ],
+    "begin"   : "2006.12",
+    "finish"  : "2007.01",
+    "description": "한국전력공사는 전국에 2만여명의 직원을 두고 있기 때문에 태릉에 대학 컴퍼스 규모의 한전중앙교육원을 운영할 만큼 교육 수요가 많은 공기업이다. 한전 직원들은 1년에도 몇차례씩 업무에 관하여 교육을 받기 위해 중앙교육원에 입교하기 때문에 이곳에는 이런 연수생들을 위한 여러가지 안내 시스템이 필요해진다. 그래서 학생들의 출입이 빈번한 장소 세 곳에 중앙교육원에 대한 소개부터 강의 시간표, 내용, 편의시설이나 강의실 위치찾기와 같은 내용을 볼 수 있는 Kiosk 를 설치하였다. 이 프로젝트에서 지도기반 위치검색 플래시 애플리케이션 제작을 담당하였다."
+  },
+
+  {
+    "title" : "태양기술개발 웹사이트",
+    "id"    : "tyecl",
+    "client": {
+      "name": "태양기술개발",
+      "website": "http://www.tyecl.com"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.tyecl.com"
+      }
+    ],
+    "path"  : "images/tyecl/",
+    "thumb" : "icon_tyecl.png",
+    "images" : [
+      {
+        "title"   : "웹사이트 메인",
+        "url"     : "tyecl_1.jpg"
+      },
+      {
+        "title"   : "CEO 인사말",
+        "url"     : "tyecl_2.jpg"
+      },
+      {
+        "title"   : "사업영역의 화학공장 레퍼런스",
+        "url"     : "tyecl_3.jpg"
+      }
+    ],
+    "begin"   : "2006.09",
+    "finish"  : "2006.10",
+    "description": "발전소나 대규모 플랜트의 설계회사인 태양기술개발의 웹 사이트 프로젝트.&#10;웹 트렌드에 민감하지 않은 이런 중공업 관련 분야 회사 웹 사이트는 향후 몇년동안 계속 사용될 것을 전제해야 하기 때문에 기획단계부터 여러 가지를 고려해야 했다. 이 프로젝트에서는 전체 디자인과 하드코딩 그리고 네비게이션과 같은 몇개의 간단한 플래시 작업을 수행하였다."
+  },
+
+  {
+    "title" : "한국지역난방기술 기술도서관",
+    "id"    : "kdhec",
+    "client": {
+      "name": "한국지역난방기술",
+      "website": "http://www.kdhec.com"
+    },
+    "tags"  : ["Web", "SI", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.kdhec.com"
+      }
+    ],
+    "path"  : "images/kdhec/",
+    "thumb" : "icon_kdhec.png",
+    "images" : [
+      {
+        "title"   : "기술도서관 메인 - 사이트는 내부 인트라넷 VPN 망에서 운영된다.",
+        "url"     : "kdhec1.Jpg"
+      },
+      {
+        "title"   : "도서관리 - 설계관련 도서자료, 도면자료 뿐만 아니라 전자문서(CAD, PDF등)등도 관리 가능하도록 설계되었다.",
+        "url"     : "kdhec2.Jpg"
+      },
+      {
+        "title"   : "자료검색 - 특히 설계관련 자료들을 검색하는데 특화되어있다.",
+        "url"     : "kdhec3.Jpg"
+      },
+      {
+        "title"   : "대출관리 - 사서(관리자)가 도서관의 관리를 수행하도록 메뉴가 구성.",
+        "url"     : "kdhec4.Jpg"
+      },
+      {
+        "title"   : "기술도서관 이용 - 회사내 기술도서관의 위치와 서가 위치, 서가 번호등을 찾아볼 수 있다.",
+        "url"     : "kdhec5.Jpg"
+      }
+    ],
+    "begin"   : "2007.05",
+    "finish"  : "2007.06",
+    "description": "한국지역난방의 자회사인 한국지역난방기술의 수많은 설계자료들을 관리하고 직원들에게 대출하는 업무를 처리하는 기술도서관 시스템 구축 프로젝트.&#10;기 구축되어 있는 시스템을 개선하여 도서관 사서 한명으로 모든 도서관 업무를 처리할 수 있도록 하였다. 여러가지 형태의 서적, 도면, 공문, 사진, 그리고 물리적 자료와 디지털 자료(CAD 도면이나 PDF 파일)등을 구분하여 검색할 수 있게 하였다."
+  },
+
+  {
+    "title" : "울산화력본부 고객 무인안내시스템",
+    "id"    : "",
+    "client": {
+      "name": "한국동서발전",
+      "website": "http://www.ewp.co.kr"
+    },
+    "tags"  : ["SI", "Flash", "Kiosk"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "메인 디자인",
+        "url"   : "ulsan_kiosk1.jpg"
+      },
+      {
+        "title" : "직원 검색화면",
+        "url"   : "ulsan_kiosk2.jpg"
+      },
+      {
+        "title" : "직원 검색결과",
+        "url"   : "ulsan_kiosk3.jpg"
+      },
+      {
+        "title" : "직원 검색결과 없음",
+        "url"   : "ulsan_kiosk4.jpg"
+      }
+    ],
+    "path"  : "images/ulsan_kiosk/",
+    "thumb" : "icon_ulsan_kiosk.png",
+    "images" : [],
+    "begin"   : "2006.11",
+    "finish"  : "2006.12",
+    "description": "동서발전의 울산화력본부(울산화력발전소) 정문의 고객 대기실에 설치된 Kiosk 와 그 내부에 탑재된 안내 프로그램을 제작.&#10;사원 데이터베이스의 외부인에게 공개 가능한 데이터를 이용하여 직원을 검색하고, 사무실의 위치를 알려주는 플래시 애플리케이션이 들어가 있다. 전체 프로젝트 매니징과 디자인 그리고 플래시 작업을 수행하였다."
+  },
+
+  {
+    "title" : "도서출판 넥서스 웹 사이트",
+    "id"    : "nexusbook",
+    "client": {
+      "name": "도서출판 넥서스",
+      "website": "http://www.nexusbook.com"
+    },
+    "tags"  : ["Web", "Flash"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트 (리뉴얼됨)",
+        "url"   : "http://www.nexusbook.com"
+      }
+    ],
+    "path"  : null,
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2005.09",
+    "finish"  : "2005.10",
+    "description": ""
+  },
+
+  {
+    "title" : "妙法寺(묘법사:일본) 웹 사이트",
+    "id"    : "myohoji",
+    "client": {
+      "name": "妙法寺(묘법사)",
+      "website": "http://www.myohoji.or.jp"
+    },
+    "tags"  : ["Web", "Flash", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://www.myohoji.or.jp"
+      }
+    ],
+    "path"  : null,
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2002.09",
+    "finish"  : "2002.10",
+    "description": ""
+  },
+
+  {
+    "title" : "조선일보 NKchosun 웹 사이트",
+    "id"    : "nkchosun",
+    "client": {
+      "name": "조선일보",
+      "website": "http://www.chosun.com"
+    },
+    "tags"  : ["Web", "Publishing"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "Project Manager",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "웹 사이트",
+        "url"   : "http://nk.chosun.com"
+      }
+    ],
+    "path"  : "",
+    "thumb" : "",
     "images" : [
       {
         "title"   : "",
-        "url"     : "",
-        "thumb"   : ""
+        "url"     : ""
+      },
+      {
+        "title"   : "",
+        "url"     : ""
       }
     ],
-    "begin"   : "2000.00",
-    "finish"  : "2000.00",
+    "begin"   : "2000.12",
+    "finish"  : "2001.02",
     "description": ""
   }
 ]

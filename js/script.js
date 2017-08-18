@@ -1,9 +1,5 @@
 $(function () {
 	works.load('json/works.json');
-	works.init('.item');
-	works.addListener('.item');
-	works.startInItem();
-	$(window).trigger('resize');
 });
 var works = {
 	_props_ : {
@@ -21,9 +17,35 @@ var works = {
 	load: function (url) {
 		$.getJSON(url, function (data) {
 			console.log(data);
+			works.createItems(data);
+			works.initInteract('.item');
+			works.addListener('.item');
+			works.startInItem();
+			$(window).trigger('resize');
 		});
+
 	},
-	init: function (selector) {
+
+	createItems: function (data) {
+		var itemData;
+		for(var i = 0; i < data.length; ++i){
+			itemData = data[i];
+			var tags = $('<div class="tags"></div>');
+			$.each(itemData.tags, function (index, value) {
+				tags.append($('<span></span>').text(value))
+			});
+			var thumb = (itemData.path && itemData.thumb) ? $('<img>').attr('src', itemData.path + itemData.thumb) : null;
+			$('#stage').append(
+				$('<div class="item"></div>').append(
+					$('<div class="thumb"></div>').append(thumb)
+				).append(
+					$('<h3></h3>').text(itemData.title)
+				).append(tags)
+			)
+		}
+	},
+
+	initInteract: function (selector) {
 		// this is used later in the resizing and gesture demos
 		window.dragMoveListener = works.itemDragMoveListener;
 		// target elements with the "draggable" class
@@ -43,15 +65,6 @@ var works = {
 				onmove: works.itemDragMoveListener,
 				onend: works.itemDragEndHandler
 			}).styleCursor(false);
-
-		$(selector).each(function (idx) {
-			var item = works.getItemObject(this);
-			var id = "item" + idx;
-			works.items[id] = item;
-			$(this).attr('id', id);
-
-			works.itemStackOrder.push(this);
-		});
 	},
 	getItemObject: function ($element) {
 		return {
@@ -102,7 +115,15 @@ var works = {
 
 		$(selector)
 			.mouseenter(works.itemMouseEnterHandler)
-			.click(works.itemClickHandler);
+			.click(works.itemClickHandler)
+			.each(function (idx) {
+				var item = works.getItemObject(this);
+				var id = "item" + idx;
+				works.items[id] = item;
+				$(this).attr('id', id);
+
+				works.itemStackOrder.push(this);
+			});
 
 		$('.descriptions .close-button').click(works.closeDescription)
 	},
