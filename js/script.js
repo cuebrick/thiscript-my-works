@@ -61,7 +61,7 @@ var works = {
 		// this is used later in the resizing and gesture demos
 		window.dragMoveListener = works.itemDragMoveListener;
 		// target elements with the "draggable" class
-		interact('.item')
+		interact(selector)
 			.draggable({
 				// enable inertial throwing
 				inertia: true,
@@ -110,12 +110,15 @@ var works = {
 
 		$(selector)
 			.mouseenter(works.itemMouseEnterHandler)
-			.click(works.itemClickHandler);
-
-		$(selector + ' .tags > span').click(function (e) {
-			e.stopImmediatePropagation();
-			works.selectByTag($(this).text());
-		});
+			.click(works.itemClickHandler)
+			.find('.tags > span')
+			.click(function (e) {
+				e.stopImmediatePropagation();
+				if($(this).hasClass('on'))
+					works.deselectTag();
+				else
+					works.selectByTag($(this).text());
+			});
 
 		$('.descriptions .close-button').click(works.closeDescription)
 	},
@@ -124,8 +127,8 @@ var works = {
 		works.selectedItems = {};
 		works.unselectedItems = {};
 
-		for(var key in works.items){
-			var item = works.items[key];
+		for(var id in works.items){
+			var item = works.items[id];
 			var bool;
 			$.each(item.data.tags, function (idx, tag) {
 				bool = (tag === tagName);
@@ -146,6 +149,15 @@ var works = {
 		works.alignUnselectedItems(works.unselectedItems);
 	},
 
+	deselectTag: function () {
+		works.selectedItems = {};
+		works.unselectedItems = {};
+		$('.item .tags > span.on').each(function () {
+			$(this).removeClass('on');
+		});
+		works.alignSelectedItems(works.items);
+	},
+
 	alignSelectedItems: function (selectedItems) {
 		var padding = works._props_.padding;
 		var gap = works._props_.gap;
@@ -160,8 +172,8 @@ var works = {
 			row,
 			x,
 			y;
-		for(var key in selectedItems){
-			var item = selectedItems[key];
+		for(var id in selectedItems){
+			var item = selectedItems[id];
 			col = count % n;
 			row = Math.floor(count / n);
 			x = ((w + gap) * col) + offsetX;
@@ -178,8 +190,8 @@ var works = {
 			y,
 			w = window.innerWidth,
 			h = window.innerHeight;
-		for(var key in unselectedItems){
-			var item = unselectedItems[key];
+		for(var id in unselectedItems){
+			var item = unselectedItems[id];
 			x = util.getRandomRange(0, w - works._props_.itemWidth);
 			y = util.getRandomRange(h - 140, h - works._props_.itemHeight);
 			works.animateItem(item, x, y, 800, 200 * count);
@@ -190,10 +202,9 @@ var works = {
 	/**
 	 * Reorder item z-index.
 	 */
-	itemMouseEnterHandler: function (e) {
+	itemMouseEnterHandler: function () {
 		var index = works.itemStackOrder.indexOf(this);
 		var topItem = works.itemStackOrder.splice(index, 1)[0];
-		console.log(index, topItem, works.itemStackOrder);
 		if(!topItem)
 			return;
 
@@ -247,7 +258,7 @@ var works = {
 	openDescription: function (id) {
 		var offset = $('#'+id).offset();
 		works._props_.openedItemId = id;
-		works.setDescription(works.items[id]);
+		works.setDescription(works.items[id].data);
 		$('.zoom-window')
 			.css(offset)
 			.css('display', 'block')
@@ -318,8 +329,8 @@ var works = {
 	startInItem: function () {
 		var x = Math.round(window.innerWidth / 2) - (works._props_.itemWidth / 2);
 		var y = window.innerHeight - 100;
-		for(var key in works.items) {
-			var item = works.items[key];
+		for(var id in works.items) {
+			var item = works.items[id];
 			item.x = x;
 			item.y = y;
 			works.moveItem(item);
@@ -336,7 +347,7 @@ var works = {
 	 */
 	animateItem: function (item, x, y, duration, delay) {
 		// console.log($(item.element), x, y);
-		$(item.element).delay(delay).animate({
+		$(item.element).dequeue().delay(delay).animate({
 			'left': x,
 			'top': y
 		}, {
