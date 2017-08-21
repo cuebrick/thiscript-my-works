@@ -279,6 +279,24 @@ var works = {
 	 */
 	setDescription: function (data) {
 		console.log(data);
+		$('.descriptions h2')
+			.text(data.title)
+			.css('background-image', 'url('+ data.path + data.thumb + ')');
+
+		var tags = $('.descriptions .tags').text('');
+		$.each(data.tags, function (index, value) {
+			tags.append($('<span></span>').text(value));
+		});
+
+		$('.descriptions > .detail > .text').text(data.description);
+
+		var imageTile = $('.descriptions > .detail > .image-tile').text('');
+		$.each(data.images, function (index, value) {
+			imageTile
+				.append($('<figure></figure>')
+					.append($('<img/>').attr('src', data.path + value.url))
+					.append($('<figcaption></figcaption>').text(value.caption)));
+		})
 	},
 
 	/**
@@ -305,7 +323,7 @@ var works = {
 	keyboardCommand: function (keyCode) {
 		console.log(keyCode);
 		switch (keyCode){
-			case 27:
+			case 27:// ESC key
 				works.closeDescription();
 				break;
 			default:

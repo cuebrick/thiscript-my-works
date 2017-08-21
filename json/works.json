@@ -169,22 +169,22 @@
     "thumb" : "icon_pvr_viewer.png",
     "images" : [
       {
-        "title"   : "플래시 개발 부분 전체화면",
+        "caption" : "플래시 개발 부분 전체화면",
         "url"     : "pvr_viewer01.jpg",
         "thumb"   : "pvr_viewer01_thumb.jpg"
       },
       {
-        "title"   : "각 지점을 클릭하면 관련 목록 패널이 표시 : 목록 화면이 화면 밖으로 빠져나가지 않도록 고려됨",
+        "caption" : "각 지점을 클릭하면 관련 목록 패널이 표시 : 목록 화면이 화면 밖으로 빠져나가지 않도록 고려됨",
         "url"     : "pvr_viewer02.jpg",
         "thumb"   : "pvr_viewer02_thumb.jpg"
       },
       {
-        "title"   : "각 항목마다 설명을 표시하는 tooltip",
+        "caption" : "각 항목마다 설명을 표시하는 tooltip",
         "url"     : "pvr_viewer03.jpg",
         "thumb"   : "pvr_viewer03_thumb.jpg"
       },
       {
-        "title"   : "웹 프로그래머가 요청한 관리자단에서 좌표 찍는 기능",
+        "caption" : "웹 프로그래머가 요청한 관리자단에서 좌표 찍는 기능",
         "url"     : "pvr_viewer04.jpg",
         "thumb"   : "pvr_viewer04_thumb.jpg"
       }
@@ -222,32 +222,32 @@
     "thumb" : "icon_catia.png",
     "images" : [
       {
-        "title"   : "UI 구성",
+        "caption" : "UI 구성",
         "url"     : "catia01.jpg",
         "thumb"   : "catia01_thumb.jpg"
       },
       {
-        "title"   : "인덱스는 학습공간의 최대한 확보를 위해 화면 밖으로 감추는 것이 기본값",
+        "caption" : "인덱스는 학습공간의 최대한 확보를 위해 화면 밖으로 감추는 것이 기본값",
         "url"     : "catia02.jpg",
         "thumb"   : "catia02_thumb.jpg"
       },
       {
-        "title"   : "CATIA 프로그램을 구동하여 실제 3D 물체를 생성하는 장면과 교수 나레이션을 동시에 설명",
+        "caption" : "CATIA 프로그램을 구동하여 실제 3D 물체를 생성하는 장면과 교수 나레이션을 동시에 설명",
         "url"     : "catia03.jpg",
         "thumb"   : "catia03_thumb.jpg"
       },
       {
-        "title"   : "단원별로 칠판강의가 선행되어 학습의 이해도를 높임",
+        "caption" : "단원별로 칠판강의가 선행되어 학습의 이해도를 높임",
         "url"     : "catia04.jpg",
         "thumb"   : "catia04_thumb.jpg"
       },
       {
-        "title"   : "문제풀이를 통한 학습점검",
+        "caption" : "문제풀이를 통한 학습점검",
         "url"     : "catia05.jpg",
         "thumb"   : "catia05_thumb.jpg"
       },
       {
-        "title"   : "2009년 전문대학 교육역량강화 사업비 지원",
+        "caption" : "2009년 전문대학 교육역량강화 사업비 지원",
         "url"     : "catia06.jpg",
         "thumb"   : "catia06_thumb.jpg"
       }
@@ -286,23 +286,23 @@
     "thumb" : "icon_light_plan_design.png",
     "images" : [
       {
-        "title"   : "시작화면",
+        "caption" : "시작화면",
         "url"     : "light_plan_design01.jpg"
       },
       {
-        "title"   : "교수와 캐릭터가 주고받으며 강의내용을 진행",
+        "caption" : "교수와 캐릭터가 주고받으며 강의내용을 진행",
         "url"     : "light_plan_design02.jpg"
       },
       {
-        "title"   : "인덱스를 포함한 모든 파일을 외부 파일로 구성할 수 있고 제목도 swf의 컴파일 없이 즉시 수정가능",
+        "caption" : "인덱스를 포함한 모든 파일을 외부 파일로 구성할 수 있고 제목도 swf의 컴파일 없이 즉시 수정가능",
         "url"     : "light_plan_design03.jpg"
       },
       {
-        "title"   : "여러가지 조명 스위치를 켜고 끄면서 실제와 유사한 효과를 볼 수 있는 화면",
+        "caption" : "여러가지 조명 스위치를 켜고 끄면서 실제와 유사한 효과를 볼 수 있는 화면",
         "url"     : "light_plan_design04.jpg"
       },
       {
-        "title"   : "마지막 화면",
+        "caption" : "마지막 화면",
         "url"     : "light_plan_design05.jpg"
       }
     ],
@@ -351,31 +351,31 @@
     "thumb" : "icon_waternow.png",
     "images" : [
       {
-        "title"   : "푸르누리 메인 : 우측의 지도기반 정수장 정보 플래시 애플리케이션은 환경부 웹사이트에도 올라가 있다.",
+        "caption" : "푸르누리 메인 : 우측의 지도기반 정수장 정보 플래시 애플리케이션은 환경부 웹사이트에도 올라가 있다.",
         "url"     : "waternow1.jpg"
       },
       {
-        "title"   : "푸르누리 소개마당의 CI소개 : CI와 관련하여 로고타입과 시그니쳐 디자인도 맏아서 처리하였다.",
+        "caption" : "푸르누리 소개마당의 CI소개 : CI와 관련하여 로고타입과 시그니쳐 디자인도 맏아서 처리하였다.",
         "url"     : "waternow2.jpg"
       },
       {
-        "title"   : "푸르누리 정보마당 메인",
+        "caption" : "푸르누리 정보마당 메인",
         "url"     : "waternow3.jpg"
       },
       {
-        "title"   : "실시간 정수장별 수질정보 메인 : 팝업 윈도우로 정보를 제공",
+        "caption" : "실시간 정수장별 수질정보 메인 : 팝업 윈도우로 정보를 제공",
         "url"     : "waternow4.jpg"
       },
       {
-        "title"   : "실시간 정수장별 수질정보 메인 : 원수, 취수, 정부, 배수, 수도꼭지별 수질정보와 정수장 상세정보를 볼 수 있다.",
+        "caption" : "실시간 정수장별 수질정보 메인 : 원수, 취수, 정부, 배수, 수도꼭지별 수질정보와 정수장 상세정보를 볼 수 있다.",
         "url"     : "waternow5.jpg"
       },
       {
-        "title"   : "급수과정별 수질흐름도 : 취수장-정수장-배수지-수도꼭지 의 네 단계 급수과정과 세부 데이터를 한눈에 볼 수 있다.",
+        "caption" : "급수과정별 수질흐름도 : 취수장-정수장-배수지-수도꼭지 의 네 단계 급수과정과 세부 데이터를 한눈에 볼 수 있다.",
         "url"     : "waternow6.jpg"
       },
       {
-        "title"   : "정수장정보 : 전국의 모든 정수시설을 지도기반으로 찾아들어갈 수 있다.",
+        "caption" : "정수장정보 : 전국의 모든 정수시설을 지도기반으로 찾아들어갈 수 있다.",
         "url"     : "waternow7.jpg"
       }
     ],
@@ -416,27 +416,27 @@
     "thumb" : "icon_myjob.png",
     "images" : [
       {
-        "title"   : "도움말 시스템에 대한 소개",
+        "caption" : "도움말 시스템에 대한 소개",
         "url"     : "myjob1.png"
       },
       {
-        "title"   : "캐릭터들이 하나의 상황을 예로 이야기를 풀어나가는 방식을 취하고 있다.",
+        "caption" : "캐릭터들이 하나의 상황을 예로 이야기를 풀어나가는 방식을 취하고 있다.",
         "url"     : "myjob2.png"
       },
       {
-        "title"   : "전자업무관리시스템에 대한 전반적인 이야기를 풀어나간 후",
+        "caption" : "전자업무관리시스템에 대한 전반적인 이야기를 풀어나간 후",
         "url"     : "myjob3.png"
       },
       {
-        "title"   : "시스템을 이용하는 방법을 실제 화면을 이용하여 설명한다.",
+        "caption" : "시스템을 이용하는 방법을 실제 화면을 이용하여 설명한다.",
         "url"     : "myjob4.png"
       },
       {
-        "title"   : "음성 나레이션이 없는 기획이었기 때문에 지루해지지 않도록 화면상의 강조도 필요",
+        "caption" : "음성 나레이션이 없는 기획이었기 때문에 지루해지지 않도록 화면상의 강조도 필요",
         "url"     : "myjob5.png"
       },
       {
-        "title"   : "마지막 화면",
+        "caption" : "마지막 화면",
         "url"     : "myjob6.png"
       }
     ],
@@ -481,27 +481,27 @@
     "thumb" : "icon_raw_material.png",
     "images" : [
       {
-        "title"   : "도입부 : 해상으로부터 카메라가 이동하여 제철소의 상공으로 이동",
+        "caption" : "도입부 : 해상으로부터 카메라가 이동하여 제철소의 상공으로 이동",
         "url"     : "raw_material1.jpg"
       },
       {
-        "title"   : "친환경 저장시설인 원형 또는 돔(dome)형 저장고",
+        "caption" : "친환경 저장시설인 원형 또는 돔(dome)형 저장고",
         "url"     : "raw_material2.jpg"
       },
       {
-        "title"   : "원자재의 크기별 선별 과정",
+        "caption" : "원자재의 크기별 선별 과정",
         "url"     : "raw_material3.jpg"
       },
       {
-        "title"   : "선형 저장고 전경",
+        "caption" : "선형 저장고 전경",
         "url"     : "raw_material4.jpg"
       },
       {
-        "title"   : "원형 돔(dome) 저장고의 내부구조에 대한 설명",
+        "caption" : "원형 돔(dome) 저장고의 내부구조에 대한 설명",
         "url"     : "raw_material5.jpg"
       },
       {
-        "title"   : "대량 제작된 CD-Rom 타이틀",
+        "caption" : "대량 제작된 CD-Rom 타이틀",
         "url"     : "raw_material6.jpg"
       }
     ],
@@ -547,23 +547,23 @@
     "thumb" : "icon_m35t.png",
     "images" : [
       {
-        "title"   : "Slide UI : 터치스크린을 좌우로 드래그 하거나 아래쪽 슬라이드 핸들을 이용해 기능을 선택",
+        "caption" : "Slide UI : 터치스크린을 좌우로 드래그 하거나 아래쪽 슬라이드 핸들을 이용해 기능을 선택",
         "url"     : "slide.png"
       },
       {
-        "title"   : "Button UI : 기본 UI 형태와 같은 UI",
+        "caption" : "Button UI : 기본 UI 형태와 같은 UI",
         "url"     : "button.png"
       },
       {
-        "title"   : "실물 PMP - Default UI : 제조사에서 판매할때 탑재되어 있는 기본 UI",
+        "caption" : "실물 PMP - Default UI : 제조사에서 판매할때 탑재되어 있는 기본 UI",
         "url"     : "m35t_default_ui.jpg"
       },
       {
-        "title"   : "실물 PMP - Slide UI : 패치를 통해 배포한 Flash UI. 터치 슬라이드로 기능을 선택한다.",
+        "caption" : "실물 PMP - Slide UI : 패치를 통해 배포한 Flash UI. 터치 슬라이드로 기능을 선택한다.",
         "url"     : "m35t_slide_ui.jpg"
       },
       {
-        "title"   : "실물 PMP - Button UI : 패치를 통해 배포한 Flash UI.",
+        "caption" : "실물 PMP - Button UI : 패치를 통해 배포한 Flash UI.",
         "url"     : "m35t_button_ui.jpg"
       }
     ],
@@ -601,15 +601,15 @@
     "thumb" : "icon_kist.png",
     "images" : [
       {
-        "title"   : "웹사이트 메인",
+        "caption" : "웹사이트 메인",
         "url"     : "kist1.jpg"
       },
       {
-        "title"   : "웹사이트 메인",
+        "caption" : "웹사이트 메인",
         "url"     : "kist2.jpg"
       },
       {
-        "title"   : "제품소개",
+        "caption" : "제품소개",
         "url"     : "kist3.jpg"
       }
     ],
@@ -650,27 +650,27 @@
     "thumb" : "icon_ccm.png",
     "images" : [
       {
-        "title"   : "CD-ROM title 의 첫 화면",
+        "caption" : "CD-ROM title 의 첫 화면",
         "url"     : "ccm1.jpg"
       },
       {
-        "title"   : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
+        "caption" : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
         "url"     : "ccm2.jpg"
       },
       {
-        "title"   : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
+        "caption" : "연속주조기의 내부 구조와 제품 제작 흐름을 3D 애니메이션으로 설명",
         "url"     : "ccm3.jpg"
       },
       {
-        "title"   : "대량 제작된 CD-Rom 타이틀",
+        "caption" : "대량 제작된 CD-Rom 타이틀",
         "url"     : "ccm4.jpg"
       },
       {
-        "title"   : "설치된 키오스크 와 연동되는 모형 (모형제작 : 기흥성)",
+        "caption" : "설치된 키오스크 와 연동되는 모형 (모형제작 : 기흥성)",
         "url"     : "ccm5.jpg"
       },
       {
-        "title"   : "설치된 키오스크 사진 전경 : 현대제철(당진) 내 현대로템 제철설계사업부 1층 건물 로비",
+        "caption" : "설치된 키오스크 사진 전경 : 현대제철(당진) 내 현대로템 제철설계사업부 1층 건물 로비",
         "url"     : "ccm6.jpg"
       }
     ],
@@ -731,23 +731,23 @@
     "thumb" : "icon_kepco_vaset.png",
     "images" : [
       {
-        "title"   : "PDA 단말기의 화면",
+        "caption" : "PDA 단말기의 화면",
         "url"     : "vaset1.png"
       },
       {
-        "title"   : "PDA 단말기의 화면 - 작업지시서 목록",
+        "caption" : "PDA 단말기의 화면 - 작업지시서 목록",
         "url"     : "vaset1.png"
       },
       {
-        "title"   : "PDA 단말기의 화면 - 작업지시서 수행 내용 : 야외 환경에서도 정확히 보일 수 있도록 명확히 대비되는 색상과 폰트를 사용",
+        "caption" : "PDA 단말기의 화면 - 작업지시서 수행 내용 : 야외 환경에서도 정확히 보일 수 있도록 명확히 대비되는 색상과 폰트를 사용",
         "url"     : "vaset1.png"
       },
       {
-        "title"   : "관제실에서 로그인하여 작업지시서를 입력하고 관리할 수 있다.",
+        "caption" : "관제실에서 로그인하여 작업지시서를 입력하고 관리할 수 있다.",
         "url"     : "vaset_admin1.jpg"
       },
       {
-        "title"   : "UI 대부분은(네비게이션 바 2종류, 본문제목은 Flash + xml로 항상 재사용 한다.",
+        "caption" : "UI 대부분은(네비게이션 바 2종류, 본문제목은 Flash + xml로 항상 재사용 한다.",
         "url"     : "vaset_admin2.jpg"
       }
     ],
@@ -775,27 +775,27 @@
     "thumb" : "icon_customer_survey.png",
     "images" : [
       {
-        "title"   : "고객 대면용 첫 화면",
+        "caption" : "고객 대면용 첫 화면",
         "url"     : "customer_survey1.jpg"
       },
       {
-        "title"   : "고객 대면용 마지막 화면",
+        "caption" : "고객 대면용 마지막 화면",
         "url"     : "customer_survey2.jpg"
       },
       {
-        "title"   : "관리자 로그인",
+        "caption" : "관리자 로그인",
         "url"     : "customer_survey3.jpg"
       },
       {
-        "title"   : "관리자 프로그램 통계관리",
+        "caption" : "관리자 프로그램 통계관리",
         "url"     : "customer_survey4.jpg"
       },
       {
-        "title"   : "관리자 프로그램 기간별 통계",
+        "caption" : "관리자 프로그램 기간별 통계",
         "url"     : "customer_survey5.jpg"
       },
       {
-        "title"   : "상담자 선택화면과 알림이",
+        "caption" : "상담자 선택화면과 알림이",
         "url"     : "customer_survey6.jpg"
       }
     ],
@@ -918,43 +918,43 @@
     "thumb" : "icon_gd31-a2b2.png",
     "images" : [
       {
-        "title"   : "GD31-A2B2 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
+        "caption" : "GD31-A2B2 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
         "url"     : "gd31-a2b2_1.png"
       },
       {
-        "title"   : "GD31-A2B2 실제와 거의 동일한 조작 - 계전기를 뒤집어 실제 케이블을 연결하듯이 연결한다.",
+        "caption" : "GD31-A2B2 실제와 거의 동일한 조작 - 계전기를 뒤집어 실제 케이블을 연결하듯이 연결한다.",
         "url"     : "gd31-a2b2_2.png"
       },
       {
-        "title"   : "GD31-A2B2 모든것은 그림 - 화면의 모든 이미지는 Flash 에서 벡터 드로잉으로 그린것.",
+        "caption" : "GD31-A2B2 모든것은 그림 - 화면의 모든 이미지는 Flash 에서 벡터 드로잉으로 그린것.",
         "url"     : "gd31-a2b2_3.png"
       },
       {
-        "title"   : "GD31-A2B2",
+        "caption" : "GD31-A2B2",
         "url"     : "gd31-a2b2_4.png"
       },
       {
-        "title"   : "GD31-A2B2",
+        "caption" : "GD31-A2B2",
         "url"     : "gd31-a2b2_5.png"
       },
       {
-        "title"   : "GD31-A2B2 시뮬레이션 첫 화면 - 정해진 방법에 의해 시험을 보듯 시뮬레이션을 할 수있다.",
+        "caption" : "GD31-A2B2 시뮬레이션 첫 화면 - 정해진 방법에 의해 시험을 보듯 시뮬레이션을 할 수있다.",
         "url"     : "gd31-a2b2_6.png"
       },
       {
-        "title"   : "GCPF-2SCD 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
+        "caption" : "GCPF-2SCD 학습과정의 첫 화면 - 학습과정의 전체적인 설명을 하고있다.",
         "url"     : "gcpf-2scd_1.png"
       },
       {
-        "title"   : "GCPF-2SCD 계전기의 뒷면 - 실제감을 주기위해 공을 들인 일러스트",
+        "caption" : "GCPF-2SCD 계전기의 뒷면 - 실제감을 주기위해 공을 들인 일러스트",
         "url"     : "gcpf-2scd_2.png"
       },
       {
-        "title"   : "GCPF-2SCD 기능설명",
+        "caption" : "GCPF-2SCD 기능설명",
         "url"     : "gcpf-2scd_3.png"
       },
       {
-        "title"   : "GCPF-2SCD",
+        "caption" : "GCPF-2SCD",
         "url"     : "gcpf-2scd_4.png"
       }
     ],
@@ -995,23 +995,23 @@
     "thumb" : "icon_dog-d42.png",
     "images" : [
       {
-        "title"   : "시작 화면",
+        "caption" : "시작 화면",
         "url"     : "dog-d24_1.jpg"
       },
       {
-        "title"   : "화면상의 케이블을 드래그해서 실제와 동일하게 연결하고 연결 결과에 따라 다른 결과를 보여준다.",
+        "caption" : "화면상의 케이블을 드래그해서 실제와 동일하게 연결하고 연결 결과에 따라 다른 결과를 보여준다.",
         "url"     : "dog-d24_2.jpg"
       },
       {
-        "title"   : "기기를 실제와 동일한 방식으로 스위치나 다이얼을 조작할 수 있다.",
+        "caption" : "기기를 실제와 동일한 방식으로 스위치나 다이얼을 조작할 수 있다.",
         "url"     : "dog-d24_3.jpg"
       },
       {
-        "title"   : "올바른 조작 방법을 여러 가지 UI 를 이용해 가이드 해주고 잘못된 조작을 가려내서 결과를 알려준다.",
+        "caption" : "올바른 조작 방법을 여러 가지 UI 를 이용해 가이드 해주고 잘못된 조작을 가려내서 결과를 알려준다.",
         "url"     : "dog-d24_4.jpg"
       },
       {
-        "title"   : "자료 메뉴에서는 공식 설명서, 고장사례등의 참고 자료를 열람할 수 있다.",
+        "caption" : "자료 메뉴에서는 공식 설명서, 고장사례등의 참고 자료를 열람할 수 있다.",
         "url"     : "dog-d24_5.jpg"
       }
     ],
@@ -1048,20 +1048,20 @@
     "thumb" : "icon_khnptown.png",
     "images" : [
       {
-        "title"   : "웹사이트 메인",
+        "caption" : "웹사이트 메인",
         "url"     : "khnptown1.jpg"
       },
       {
-        "title"   : "사택약도",
-        "url"     : "khnptown2.jpg"
+        "caption" : "사택약도",
+        "url"     : "khnptown2.png"
       },
       {
-        "title"   : "사택신청 절차",
-        "url"     : "khnptown3.jpg"
+        "caption" : "사택신청 절차",
+        "url"     : "khnptown3.png"
       },
       {
-        "title"   : "복지시설",
-        "url"     : "khnptown4.jpg"
+        "caption" : "복지시설",
+        "url"     : "khnptown4.png"
       }
     ],
     "begin"   : "2007.08",
@@ -1115,24 +1115,24 @@
     "thumb" : "icon_inha_distribution.png",
     "images" : [
       {
-        "title"   : "POS 키오스크 화면",
+        "caption" : "POS 키오스크 화면",
         "url"     : "inha_distribution1.png"
       },
       {
-        "title"   : "POS 키오스크 화면",
+        "caption" : "POS 키오스크 화면",
         "url"     : "inha_distribution2.png"
       },
       {
-        "title"   : "메인 키오스크 화면",
-        "url"     : "inha_distribution3.png"
+        "caption" : "메인 키오스크 화면",
+        "url"     : "inha_distribution3.jpg"
       },
       {
-        "title"   : "메인 키오스크 화면",
-        "url"     : "inha_distribution4.png"
+        "caption" : "메인 키오스크 화면",
+        "url"     : "inha_distribution4.jpg"
       },
       {
-        "title"   : "시스템과 연동되어 동작(시뮬레이션)이 되는 컨베이어 벨트 모형",
-        "url"     : "inha_distribution5.png"
+        "caption" : "시스템과 연동되어 동작(시뮬레이션)이 되는 컨베이어 벨트 모형",
+        "url"     : "inha_distribution5.jpg"
       }
     ],
     "begin"   : "2007.04",
@@ -1159,23 +1159,23 @@
     "thumb" : "icon_kosdaqca.png",
     "images" : [
       {
-        "title"   : "인증된 관리자 로그인 필요",
+        "caption" : "인증된 관리자 로그인 필요",
         "url"     : "kosdaqca0.png"
       },
       {
-        "title"   : "인트라넷의 기본적인 기능을 가지고 있다.",
+        "caption" : "인트라넷의 기본적인 기능을 가지고 있다.",
         "url"     : "kosdaqca1.png"
       },
       {
-        "title"   : "이메일 보내기",
+        "caption" : "이메일 보내기",
         "url"     : "kosdaqca2.png"
       },
       {
-        "title"   : "메일함의 설정",
+        "caption" : "메일함의 설정",
         "url"     : "kosdaqca5.png"
       },
       {
-        "title"   : "개인정보",
+        "caption" : "개인정보",
         "url"     : "kosdaqca6.png"
       }
     ],
@@ -1208,7 +1208,7 @@
     "thumb" : "icon_neoekp_web.png",
     "images" : [
       {
-        "title"   : "웹사이트 메인",
+        "caption" : "웹사이트 메인",
         "url"     : "neoekp_web1.jpg"
       }
     ],
@@ -1241,23 +1241,23 @@
     "thumb" : "icon_neoekp.png",
     "images" : [
       {
-        "title"   : "그룹웨어 메인",
+        "caption" : "그룹웨어 메인",
         "url"     : "neoekp1.jpg"
       },
       {
-        "title"   : "자료실",
+        "caption" : "자료실",
         "url"     : "neoekp2.jpg"
       },
       {
-        "title"   : "주소록",
+        "caption" : "주소록",
         "url"     : "neoekp3.jpg"
       },
       {
-        "title"   : "조직관리",
+        "caption" : "조직관리",
         "url"     : "neoekp4.jpg"
       },
       {
-        "title"   : "일정관리",
+        "caption" : "일정관리",
         "url"     : "neoekp5.jpg"
       }
     ],
@@ -1290,7 +1290,7 @@
     "thumb" : "icon_gbc_seoul.png",
     "images" : [
       {
-        "title"   : "메인화면",
+        "caption" : "메인화면",
         "url"     : "gbc_seoul_1.jpg"
       }
     ],
@@ -1324,15 +1324,15 @@
     "thumb" : "icon_uj_graph.png",
     "images" : [
       {
-        "title"   : "경제적 기여도 종합",
+        "caption" : "경제적 기여도 종합",
         "url"     : "uj_graph1.png"
       },
       {
-        "title"   : "지역 출신 인건비 현황 그래프",
+        "caption" : "지역 출신 인건비 현황 그래프",
         "url"     : "uj_graph2.png"
       },
       {
-        "title"   : "막대그래프",
+        "caption" : "막대그래프",
         "url"     : "uj_graph3.png"
       }
     ],
@@ -1365,15 +1365,15 @@
     "thumb" : "icon_joul.png",
     "images" : [
       {
-        "title"   : "웹 사이트 메인",
+        "caption" : "웹 사이트 메인",
         "url"     : "joul1.jpg"
       },
       {
-        "title"   : "회사소개",
+        "caption" : "회사소개",
         "url"     : "joul2.jpg"
       },
       {
-        "title"   : "제품소개",
+        "caption" : "제품소개",
         "url"     : "joul3.jpg"
       }
     ],
@@ -1424,15 +1424,15 @@
     "thumb" : "icon_kepco_academy.png",
     "images" : [
       {
-        "title"   : "Kiosk #1",
+        "caption" : "Kiosk #1",
         "url"     : "kepco_academy1.jpg"
       },
       {
-        "title"   : "Kiosk #2 (Kiosk 는 총 3대)",
+        "caption" : "Kiosk #2 (Kiosk 는 총 3대)",
         "url"     : "kepco_academy2.jpg"
       },
       {
-        "title"   : "키오스크 화면",
+        "caption" : "키오스크 화면",
         "url"     : "kepco_academy3.jpg"
       }
     ],
@@ -1469,15 +1469,15 @@
     "thumb" : "icon_tyecl.png",
     "images" : [
       {
-        "title"   : "웹사이트 메인",
+        "caption" : "웹사이트 메인",
         "url"     : "tyecl_1.jpg"
       },
       {
-        "title"   : "CEO 인사말",
+        "caption" : "CEO 인사말",
         "url"     : "tyecl_2.jpg"
       },
       {
-        "title"   : "사업영역의 화학공장 레퍼런스",
+        "caption" : "사업영역의 화학공장 레퍼런스",
         "url"     : "tyecl_3.jpg"
       }
     ],
@@ -1518,23 +1518,23 @@
     "thumb" : "icon_kdhec.png",
     "images" : [
       {
-        "title"   : "기술도서관 메인 - 사이트는 내부 인트라넷 VPN 망에서 운영된다.",
+        "caption" : "기술도서관 메인 - 사이트는 내부 인트라넷 VPN 망에서 운영된다.",
         "url"     : "kdhec1.Jpg"
       },
       {
-        "title"   : "도서관리 - 설계관련 도서자료, 도면자료 뿐만 아니라 전자문서(CAD, PDF등)등도 관리 가능하도록 설계되었다.",
+        "caption" : "도서관리 - 설계관련 도서자료, 도면자료 뿐만 아니라 전자문서(CAD, PDF등)등도 관리 가능하도록 설계되었다.",
         "url"     : "kdhec2.Jpg"
       },
       {
-        "title"   : "자료검색 - 특히 설계관련 자료들을 검색하는데 특화되어있다.",
+        "caption" : "자료검색 - 특히 설계관련 자료들을 검색하는데 특화되어있다.",
         "url"     : "kdhec3.Jpg"
       },
       {
-        "title"   : "대출관리 - 사서(관리자)가 도서관의 관리를 수행하도록 메뉴가 구성.",
+        "caption" : "대출관리 - 사서(관리자)가 도서관의 관리를 수행하도록 메뉴가 구성.",
         "url"     : "kdhec4.Jpg"
       },
       {
-        "title"   : "기술도서관 이용 - 회사내 기술도서관의 위치와 서가 위치, 서가 번호등을 찾아볼 수 있다.",
+        "caption" : "기술도서관 이용 - 회사내 기술도서관의 위치와 서가 위치, 서가 번호등을 찾아볼 수 있다.",
         "url"     : "kdhec5.Jpg"
       }
     ],
@@ -1683,11 +1683,11 @@
     "thumb" : "",
     "images" : [
       {
-        "title"   : "",
+        "caption" : "",
         "url"     : ""
       },
       {
-        "title"   : "",
+        "caption" : "",
         "url"     : ""
       }
     ],
