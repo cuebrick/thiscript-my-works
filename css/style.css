@@ -6,12 +6,20 @@ body{
 	background-color: #333;
 	overflow: hidden;
 	font-size: 12px;
+	color: #eee;
 }
 *{
 	box-sizing: border-box;
 }
 h1, h2, h3, p{
 	margin: 0;
+}
+a, a:visited{
+	color: #00b5ee;
+	text-decoration: none;
+}
+a:hover{
+	color: #90dbee;
 }
 #stage{
 	height: 100%;
@@ -101,11 +109,9 @@ h1{
 	color: #eee;
 	background-color: #333c40;
 }
-
 .zoom-window{
 	border: 2px solid #888;
 	border-radius: 5px;
-	/*transition: all 1s;*/
 	width: 200px;
 	height: 60px;
 	position: absolute;
@@ -158,13 +164,13 @@ h1{
 	color: #e2a66e;
 	font-weight: 100;
 	font-size: 25px;
-	padding-left: 40px;
-	padding-bottom: 15px;
+	padding: 0 20px 15px 40px;
 	background-repeat: no-repeat;
 	border-bottom: 1px solid #aaa;
 }
 .descriptions .tags{
 	margin-top: 5px;
+	float: left;
 }
 .descriptions .tags > span{
 	color: #9cddee;
@@ -176,8 +182,20 @@ h1{
 	display: inline-block;
 	margin-right: 5px;
 }
-.descriptions > .tags > span.on{
+.descriptions .tags > span.on{
 	background-color: #1f86b7;
+}
+.descriptions .info{
+	float: right;
+	text-align: right;
+}
+.descriptions .info > .term{
+	color: #9cddee;
+}
+.descriptions .info > .client > a{
+	background-color: #465358;
+	border-radius: 2px;
+	padding: 0 10px;
 }
 .descriptions > .detail{
 	margin: 20px;
@@ -187,7 +205,17 @@ h1{
 	font-size: 14px;
 	line-height: 1.8em;
 	color: #eeeeee;
+	margin-bottom: 10px;
+}
+.descriptions > .detail > .urls{
 	margin-bottom: 20px;
+}
+.descriptions > .detail > .urls > a{
+	display: inline-block;
+	background-color: #3a4b67;
+	padding: 0 10px;
+	border-radius: 2px;
+	margin-right: 5px;
 }
 .descriptions > .detail > .image-tile{
 	column-count: 3;

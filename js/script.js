@@ -287,8 +287,15 @@ var works = {
 		$.each(data.tags, function (index, value) {
 			tags.append($('<span></span>').text(value));
 		});
+		$('.descriptions .term').text(data.begin + ' ~ ' + data.finish);
+		$('.descriptions .client > a').text(data.client.name).attr('href', data.client.website);
 
 		$('.descriptions > .detail > .text').text(data.description);
+
+		var urls = $('.descriptions > .detail > .urls').text('');
+		$.each(data.urls, function (index, value) {
+			urls.append($('<a target="_blank"></a>').text(value.title).attr('href', value.url));
+		});
 
 		var imageTile = $('.descriptions > .detail > .image-tile').text('');
 		$.each(data.images, function (index, value) {
