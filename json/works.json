@@ -1565,27 +1565,27 @@
         "sharing": 100
       }
     ],
-    "urls"  : [
-      {
-        "title" : "메인 디자인",
-        "url"   : "ulsan_kiosk1.jpg"
-      },
-      {
-        "title" : "직원 검색화면",
-        "url"   : "ulsan_kiosk2.jpg"
-      },
-      {
-        "title" : "직원 검색결과",
-        "url"   : "ulsan_kiosk3.jpg"
-      },
-      {
-        "title" : "직원 검색결과 없음",
-        "url"   : "ulsan_kiosk4.jpg"
-      }
-    ],
+    "urls"  : [],
     "path"  : "images/ulsan_kiosk/",
     "thumb" : "icon_ulsan_kiosk.png",
-    "images" : [],
+    "images" : [
+      {
+        "caption" : "메인 디자인",
+        "url"     : "ulsan_kiosk1.jpg"
+      },
+      {
+        "caption" : "직원 검색화면",
+        "url"     : "ulsan_kiosk2.jpg"
+      },
+      {
+        "caption" : "직원 검색결과",
+        "url"     : "ulsan_kiosk3.jpg"
+      },
+      {
+        "caption" : "직원 검색결과 없음",
+        "url"     : "ulsan_kiosk4.jpg"
+      }
+    ],
     "begin"   : "2006.11",
     "finish"  : "2006.12",
     "description": "동서발전의 울산화력본부(울산화력발전소) 정문의 고객 대기실에 설치된 Kiosk 와 그 내부에 탑재된 안내 프로그램을 제작.&#10;사원 데이터베이스의 외부인에게 공개 가능한 데이터를 이용하여 직원을 검색하고, 사무실의 위치를 알려주는 플래시 애플리케이션이 들어가 있다. 전체 프로젝트 매니징과 디자인 그리고 플래시 작업을 수행하였다."

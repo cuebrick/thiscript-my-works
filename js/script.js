@@ -34,6 +34,9 @@ var works = {
 		var itemData, $item, tags, thumb, id, item;
 		for(var i = 0; i < data.length; ++i){
 			itemData = data[i];
+			if(itemData.active === false)
+				continue;
+
 			tags = $('<div class="tags"></div>');
 			$.each(itemData.tags, function (index, value) {
 				tags.append($('<span></span>').text(value))
