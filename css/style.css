@@ -32,7 +32,7 @@ a:hover{
 h1{
 	font-size: 40px;
 	font-weight: 100;
-	color: #f8e9d2;
+	color: rgba(248, 233, 210, 0.6);
 	text-align: center;
 	padding-top: 10px;
 }
@@ -188,6 +188,7 @@ h1{
 .descriptions .info{
 	float: right;
 	text-align: right;
+	margin-top: 5px;
 }
 .descriptions .info > .term{
 	color: #9cddee;
@@ -228,7 +229,7 @@ h1{
 	margin: 0 0 20px 0;
 }
 .descriptions > .detail > .image-tile > figure > img{
-	width: 100%;
+	max-width: 100%;
 	border-radius: 4px;
 }
 .descriptions > .detail > .image-tile > figure > figcaption{
