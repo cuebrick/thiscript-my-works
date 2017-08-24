@@ -1,7 +1,7 @@
 [
   {
-    "title" : "서울특별시건축사회",
-    "id"    : "hmg",
+    "title" : "서울특별시건축사회 소규모건물 공사감리자 웹사이트",
+    "id"    : "siragamri",
     "client": {
       "name": "서울특별시건축사회",
       "website": "https://www.sira.or.kr"
@@ -26,8 +26,8 @@
     "path"  : "images/siragamri/",
     "thumb" : null,
     "images" : [],
-    "begin"   : "2016.04",
-    "finish"  : "2016.05",
+    "begin"   : "2017.03",
+    "finish"  : "2017.05",
     "description": ""
   },
 
@@ -84,6 +84,84 @@
     "images" : [],
     "begin"   : "2016.06",
     "finish"  : "2016.08",
+    "description": ""
+  },
+
+  {
+    "title" : "KT연구개발센터 KT VPO Smart Engine",
+    "id"    : "ktvpo",
+    "client": {
+      "name": "KT연구개발센터",
+      "website": "https://www.kt.com"
+    },
+    "tags"  : ["Web", "UI/UX", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "Front-end Developer",
+        "sharing": 50
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/ktvpo/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2014.06",
+    "finish"  : "2014.07",
+    "description": ""
+  },
+
+  {
+    "title" : "경기중소기업종합지원센터 Air Conditioner Remote Control System",
+    "id"    : "gsbc",
+    "client": {
+      "name": "경기중소기업종합지원센터",
+      "website": "https://www.gsbc.or.kr"
+    },
+    "tags"  : ["Web", "UI/UX", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "Front-end Developer",
+        "sharing": 50
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/gsbc/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2013.12",
+    "finish"  : "2014.02",
+    "description": ""
+  },
+
+  {
+    "title" : "SK 통신전원 통합감시",
+    "id"    : "sktem",
+    "client": {
+      "name": "SK텔레콤",
+      "website": "http://www.sktelecom.co.kr"
+    },
+    "tags"  : ["Web", "UI/UX", "Flash"],
+    "jobs"  : [
+      {
+        "role": "Front-end Developer",
+        "sharing": 50
+      },
+      {
+        "role": "Flash Developer",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [
+      {
+        "title" : "데모",
+        "url"   : "https://"
+      }
+    ],
+    "path"  : "images/sktem/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2013.09",
+    "finish"  : "2013.11",
     "description": ""
   },
 
@@ -736,11 +814,11 @@
       },
       {
         "caption" : "PDA 단말기의 화면 - 작업지시서 목록",
-        "url"     : "vaset1.png"
+        "url"     : "vaset2.png"
       },
       {
         "caption" : "PDA 단말기의 화면 - 작업지시서 수행 내용 : 야외 환경에서도 정확히 보일 수 있도록 명확히 대비되는 색상과 폰트를 사용",
-        "url"     : "vaset1.png"
+        "url"     : "vaset3.png"
       },
       {
         "caption" : "관제실에서 로그인하여 작업지시서를 입력하고 관리할 수 있다.",
