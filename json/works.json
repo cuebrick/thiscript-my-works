@@ -1,5 +1,63 @@
 [
   {
+    "title" : "Typing Play",
+    "id"    : "typingplay",
+    "client": {
+      "name": "개인 프로젝트",
+      "website": "https://www.typingplay.com"
+    },
+    "tags"  : ["Web", "Publishing", "JavaScript", "React", "node.js"],
+    "jobs"  : [
+      {
+        "role": "Developer",
+        "sharing": 100
+      },
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "HTML Publisher",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/typingplay/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2017.09",
+    "finish"  : "2018.05",
+    "description": ""
+  },
+
+  {
+    "title" : "대한해운 영업포탈",
+    "id"    : "korealines",
+    "client": {
+      "name": "대한해운",
+      "website": "https://www.korealines.co.kr"
+    },
+    "tags"  : ["Web", "Publishing", "JavaScript"],
+    "jobs"  : [
+      {
+        "role": "UI Designer",
+        "sharing": 100
+      },
+      {
+        "role": "HTML Publisher",
+        "sharing": 100
+      }
+    ],
+    "urls"  : [],
+    "path"  : "images/korealines/",
+    "thumb" : null,
+    "images" : [],
+    "begin"   : "2017.06",
+    "finish"  : "2017.08",
+    "description": ""
+  },
+
+  {
     "title" : "서울특별시건축사회 소규모건물 공사감리자 웹사이트",
     "id"    : "siragamri",
     "client": {
