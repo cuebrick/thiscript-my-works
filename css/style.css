@@ -126,7 +126,7 @@ h1{
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.95);
 	display: none;
 	overflow-y: auto;
 }
@@ -175,12 +175,10 @@ h1{
 .descriptions .tags > span{
 	color: #9cddee;
 	background-color: #454545;
-	/*border-radius: 4px;*/
-	padding: 5px 20px 7px 20px;
-	font-size: 14px;
+	padding: 5px 10px 7px 10px;
+	font-size: 12px;
 	white-space: nowrap;
 	display: inline-block;
-	margin-right: 5px;
 }
 .descriptions .tags > span.on{
 	background-color: #1f86b7;

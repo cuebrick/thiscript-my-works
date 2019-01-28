@@ -7,6 +7,8 @@ var works = {
 		gap: 10,
 		itemWidth: 200,
 		itemHeight: 60,
+		animationDelay: 80,
+		animationDuration: 600,
 		openedItemId: null
 	},
 	items : {},
@@ -181,7 +183,7 @@ var works = {
 			row = Math.floor(count / n);
 			x = ((w + gap) * col) + offsetX;
 			y = (h + gap) * row + padding;
-			works.animateItem(item, x, y, 800, 200 * count);
+			works.animateItem(item, x, y, works._props_.animationDuration, works._props_.animationDelay * count);
 			++count;
 		}
 	},
@@ -197,7 +199,7 @@ var works = {
 			var item = unselectedItems[id];
 			x = util.getRandomRange(0, w - works._props_.itemWidth);
 			y = util.getRandomRange(h - 140, h - works._props_.itemHeight);
-			works.animateItem(item, x, y, 800, 200 * count);
+			works.animateItem(item, x, y, works._props_.animationDuration, works._props_.animationDelay * count);
 			++count;
 		}
 	},
