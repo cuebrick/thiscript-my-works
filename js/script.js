@@ -5,8 +5,8 @@ var works = {
 	_props_ : {
 		padding: 80,
 		gap: 10,
-		itemWidth: 200,
-		itemHeight: 60,
+		itemWidth: 250,
+		itemHeight: 50,
 		animationDelay: 80,
 		animationDuration: 600,
 		openedItemId: null

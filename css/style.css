@@ -37,8 +37,8 @@ h1{
 	padding-top: 10px;
 }
 #stage .item{
-	width: 200px;
-	height: 60px;
+	width: 250px;
+	height: 50px;
 	background-color: rgba(238, 238, 238, 0.9);
 	border-radius: 5px;
 	position: absolute;
@@ -49,15 +49,16 @@ h1{
 	transition: box-shadow 0.5s;
 	padding: 3px;
 }
-#stage .item:active{
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 0 2px rgba(0,0,0,0.3);
+#stage .item:active, #stage .item:hover{
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3), 0 0 2px rgba(0,0,0,0.6);
 	transition: box-shadow 0.2s;
+	background-color: rgba(238, 238, 238, 1);
 }
 
 
 #stage .item > .thumb{
-	width: 54px;
-	height: 54px;
+	width: 44px;
+	height: 44px;
 	background-color: #777777;
 	border-radius: 3px;
 	float: left;
@@ -68,14 +69,14 @@ h1{
 }
 .item > h3 {
 	float: right;
-	width: 135px;
-	height: 30px;
+	width: 195px;
+	height: 28px;
 	line-height: 15px;
 	font-size: 12px;
 	font-weight: 100;
 	color: #777777;
 	letter-spacing: -0.05em;
-	margin-bottom: 9px;
+	margin-bottom: 1px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -85,7 +86,7 @@ h1{
 
 .item > .tags{
 	float: right;
-	width: 135px;
+	width: 195px;
 	height: 15px;
 	padding: 0;
 	line-height: 12px;
